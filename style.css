@@ -672,7 +672,7 @@ span {
 
 
 
-
+/*
 
 @media only screen and (min-width: 100px) {
 	body {
@@ -710,7 +710,7 @@ span {
 		height: 1300px;
 	}
 
-	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! */
+	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! 
 		display: none;
 	}
 
@@ -768,7 +768,7 @@ span {
 		font-size: 70px;
 	}	
 	
-	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! */
+	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! 
 		display: block;
 	}
 
@@ -815,7 +815,7 @@ span {
 		font-size: 65px;
 	}
 
-	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! */
+	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! 
 		display: block;
 	}
 
@@ -862,7 +862,7 @@ span {
 		font-size: 65px;
 	}
 
-	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! */
+	#lights, #light_content, #light_buttons, #free_less_wrapper, #footer { /*  TAKE FREE_LESS_WRAPPER AND FOOTER AWAY FROM HERE!! 
 		display: block;
 	}
 
