@@ -1,0 +1,637 @@
+/* 
+
+CSS DOCUMENT 
+
+Project: UWNRG;
+Author: Sahibjot Saggu;
+Date: December 08, 2014;
+Filename: style.css;
+
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #FFFFF9;
+	overflow-x: hidden;
+}
+
+@font-face {
+	font-family: montserrat_bold;
+	src: url("montserrat/Montserrat-Bold.otf");
+}
+
+@font-face {
+	font-family: montserrat_regular;
+	src: url("montserrat/Montserrat-Regular.otf");
+}
+
+@font-face {
+	font-family: montserrat_hairline;
+	src: url("montserrat/Montserrat-Hairline.otf");
+}
+
+@font-face {
+	font-family: alternategot;
+	src: url("alternategot.ttf");
+}
+
+@font-face {
+	font-family: Neou;
+	src: url("Neou-Bold.otf");
+}
+
+@font-face {
+	font-family: l_gothic;
+	src: url("leaguegothic-regular-webfont.ttf");
+}
+
+@font-face {
+	font-family: bj;
+	src: url("BJSJ/BIG JOHN.otf"), url("BJSJ/BIG JOHN.eot");
+}
+
+@font-face {
+	font-family: sj;
+	src: url("BJSJ/Slim Joe.otf");
+}
+
+@font-face {
+	font-family: great_primer;
+	src: url("FeGPrm27C.otf");
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+ 
+/* Track 
+::-webkit-scrollbar-track {
+	background: #FFF;
+}*/
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	width: 100px;
+    border-radius: 5px;
+    background: #222; 
+}
+
+
+#loading_screen #loading_bar {
+	position: absolute;
+	top: calc(50% - 1.5px);
+	left: 0px;
+	width: 0%;
+	height: 3px;
+	background: #555;
+	z-index: 3;
+}
+
+#topbar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	background: #222;
+	z-index: 3;
+	display: none;
+}
+
+#topbar #top_title {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	font-family: l_gothic;
+	font-size: 40px;
+}
+
+#topbar #top_title a {
+	text-decoration: none;
+	color: #B63A3A;
+}
+
+#topbar #nav_button {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	background: url('images/horizontal_lines.png') no-repeat center center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+#topbar #top_hor_nav_buttons {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 770px;
+	height: 70px;
+}
+
+#topbar #top_hor_nav_buttons ul {
+	list-style-type: none;
+}
+
+#topbar #top_hor_nav_buttons ul li {
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+}
+
+#topbar #top_hor_nav_buttons ul li a {
+	float: left;
+	width: 150px;
+	height: 70px;
+	text-align: center;
+	text-decoration: none;
+	display: table;
+	color: #FFF;
+}
+
+#topbar #top_hor_nav_buttons ul li a:hover {
+	text-decoration: underline;
+}
+
+#topbar #top_hor_nav_buttons ul li a span#nav_span {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15px;
+	font-family: sj;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#topnav {
+	position: absolute;
+	top: -250px;
+	left: 0px;
+	width: 100%;
+	height: 250px;
+	z-index: 2;
+}
+
+#topnav ul {
+	list-style-type: none;
+}
+
+#topnav ul li {
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+#topnav ul li a {
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	font-family: sj;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+	background: #222;
+}
+
+aside {
+	position: fixed;
+	top: 0px;
+	left: 0%;
+	width: 20%;
+	height: 100%;
+	background: #222;
+}
+
+aside #title {
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	font-family: l_gothic;
+	font-size: 75px;
+}
+
+aside #title a {
+	text-decoration: none;
+	color: #B63A3A;
+}
+
+aside #options {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	width: 100%;
+	/*background-color: red;*/
+}
+
+aside #options ul {
+	list-style-type: none;
+}
+
+aside #options ul li {
+	display: block;
+	width: 100%;
+	height: 35px;
+	text-indent: 80px;
+	font-family: sj;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+
+aside #options ul li a {
+	float: left;
+	text-decoration: none;
+	width: 100%;
+	height: 35px;
+	color: #FFF;
+}
+
+aside #options ul li a:hover {
+	text-decoration: underline;
+}
+
+aside #options ul li a#onlink {
+	text-decoration: underline;
+}
+
+aside #social_buttons {
+	position: absolute;
+	bottom: 50px;
+	left: calc(50% - 50px);
+	width: 100px;
+	height: 50px;
+}
+
+aside #social_buttons ul {
+	list-style-type: none;
+}
+
+aside #social_buttons ul li a {
+	float: left;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	-webkit-transition: background-image 0.5s;
+}
+
+aside #social_buttons ul li a#facebook {
+	background: url("fb.png") no-repeat center center;
+	background-size: cover;
+}
+
+aside #social_buttons ul li a#facebook:hover {
+	background-image: url("fb_invert.png");
+}
+
+aside #social_buttons ul li a#twitter {
+	background: url("twitter.png") no-repeat center center;
+	background-size: cover;
+}
+
+aside #social_buttons ul li a#twitter:hover {
+	background-image: url("twitter_invert.png");
+}
+
+main {
+	position: absolute;
+	top: 0px;
+	right: 0%;
+	width: 80%;
+	height: 100%;
+}
+
+/* index.html */
+
+#wrapper1, #wrapper2, #wrapper3, #wrapper4 {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	display: table;
+	text-align: center;	
+}
+
+#wrapper1 {
+	top: 0%;
+	background: url("images/pic2.jpg") no-repeat center center fixed;
+}
+
+#wrapper2 {
+	top: 100%;
+	background: url("images/pic1.jpg") no-repeat center center fixed;
+}
+
+#wrapper3 {
+	top: 200%;
+	background: url("images/pic3.jpg") no-repeat center center fixed;
+}
+
+#wrapper4 {
+	top: 300%;
+	background: url("images/pic4.jpg") no-repeat center center fixed;
+}
+
+span {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: bj;
+	font-size: 150px;
+	color: #FFF;
+}
+
+/* END index.html */
+
+/* team.html */
+
+#team_banner, #robot_heading, #map_header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 300px;
+	background: #222;
+	display: table;
+	text-align: center;
+}
+
+#map_header {
+	height: 600px;
+	background: #FFFFF9;
+}
+
+#map {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+#contact_us {
+	position: absolute;
+	top: 125px;
+	right: 0px;
+	width: 500px;
+	height: 300px;
+	background: #222;
+}
+
+#contact_us h1 {
+	font-family: bj;
+	color: #FFF;
+	padding: 10px;
+	font-size: 40px;
+}
+
+#contact_us h3 {
+	font-family: sj;
+	padding: 5px;
+	color: #FFF;
+}
+
+#contact_us #location_add {
+	position: absolute;
+	top: 110px;
+	left: calc(50% - 175px);
+	width: 350px;
+	height: 100px;
+	font-family: Segoe UI Light;
+	color: #FFF;
+}
+
+#contact_us #m_point {
+	width: 30px;
+}
+
+#team_banner {
+	background: url("images/FLIPP-76_Banner-Template.png") no-repeat;
+	background-size: cover;
+}
+
+#robot_heading {
+	background: transparent;
+}
+
+#robot_heading span {
+	font-size: 90px;
+	color: #222;
+}
+
+#team_banner span {
+	font-family: bj;
+	font-size: 80px;
+	color: #222;
+}
+
+#heading, #about_heading {
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	font-family: bj;
+	font-size: 40px;
+	color: #222;
+}
+
+#about_heading {
+	top: 650px;
+}
+
+#t_p1, #t_p2 {
+	position: absolute;
+	top: 420px;
+	left: calc(50% - 325px);
+	width: 650px;
+	height: 150px;
+	font-family: Segoe UI Light;
+	font-size: 18px;
+}
+
+#t_p2 {
+	top: 570px;
+}
+
+#mission_statement {
+	position: absolute;
+	top: 720px;
+	left: calc(50% - 325px);
+	width: 650px;
+	height: 150px;
+	font-family: Segoe UI Light;
+	font-size: 18px;
+}
+/*
+#pictures {
+	position: absolute;
+	top: 710px;
+	/*left: calc(50% - 310px);
+	left: 0px;
+}*/
+
+		#pictures {
+			position: absolute;
+			top: 750px;
+			left: calc(50% - 375px);
+			width: 750px;
+			height: 600px;
+		}
+
+		#pictures ul {
+			margin: 0px;
+			padding: 0px;
+			list-style-type: none;
+			width: 750px;
+			height: 600px;
+		}
+
+		#pictures ul li {
+			display: inline;
+			float: left;
+			width: 150px;
+			height: 200px;
+			background: url("images/avatar.png") no-repeat center center;
+			text-align: center;
+			line-height: 200px;
+			cursor: pointer;
+		}
+
+		#pictures ul li div {
+			width: 150px;
+			height: 200px;
+			background: rgba(182,58,58,0.8);
+			-webkit-transition: margin-top 0.5s, height 0.5s, line-height 0.5s, background 0.5s;
+			color: #FFF;
+			font-family: Segoe UI Light;
+			font-size: 18px;
+		}
+
+		#pictures ul li:hover div {
+			margin-top: -50px;
+			height: 50px;
+			line-height: 50px;
+			background: #333;
+		}
+
+/* END team.html */
+
+/* robots.html */
+
+#robots {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	width: 100%;
+	height: 900px;
+}
+
+#robots ul {
+	list-style-type: none;
+	width: 100%;
+	height: 900px;
+}
+
+#robots ul li {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 300px;
+	background: url("images/robot_pic.jpg") no-repeat center center;
+	background-size: 100%;
+	cursor: pointer;
+	opacity: 0.5;
+	line-height: 300px;
+	text-align: center;
+	font-family: bj;
+	font-size: 45px;
+	color: #FFF;
+	-webkit-transition: opacity 0.5s, background-size 0.5s;
+}
+
+#robots ul li:hover {
+	opacity: 1;
+	background-size: 125%;
+}
+
+/* END robots.html */
+
+/* Media Queries */
+
+
+
+@media only screen and (max-width: 1400px) {
+	aside {
+		display: none;
+	}
+	main {
+		width: 100%;
+		left: 0%;
+	}
+	#topbar {
+		display: block;
+	}
+	#nav_button {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	span {
+		font-size: 100px;
+	}
+	#nav_button {
+		display: block;
+	}	
+	#top_hor_nav_buttons {
+		display: none;
+	}	
+}
+
+@media only screen and (max-width: 660px) {
+	span {
+		font-size: 80px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	span {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	span {
+		font-size: 50px;
+	}
+}
+
+/*
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 1370px) {
+	#left_nav {
+		left: -20%;
+	}
+}
+/*
+@media only screen and (max-width: 1525px) {
+
+}*/
