@@ -106,10 +106,10 @@ body {
 
 #topbar #top_title {
 	position: absolute;
-	top: 15px;
-	left: 15px;
+	top: 10px;
+	left: 10px;
 	font-family: l_gothic;
-	font-size: 40px;
+	font-size: 50px;
 }
 
 #topbar #top_title a {
