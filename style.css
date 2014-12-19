@@ -64,6 +64,10 @@ body {
 	src: url("FeGPrm27C.otf");
 }
 
+@font-face {
+	font-family: gotham;
+	src: url("GothamBook.ttf");
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -163,8 +167,8 @@ body {
 #topbar #top_hor_nav_buttons ul li a span#nav_span {
 	display: table-cell;
 	vertical-align: middle;
-	font-size: 15px;
-	font-family: sj;
+	font-size: 14px;
+	font-family: gotham;
 	font-weight: bold;
 	color: #FFF;
 }
@@ -195,10 +199,10 @@ body {
 	text-align: center;
 	line-height: 50px;
 	text-decoration: none;
-	font-family: sj;
+	font-family: gotham;
 	color: #FFF;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 14px;
 	background: #222;
 }
 
@@ -241,8 +245,8 @@ aside #options ul li {
 	width: 100%;
 	height: 35px;
 	text-indent: 80px;
-	font-family: sj;
-	font-size: 13px;
+	font-family: gotham;
+	font-size: 14px;
 	font-weight: bold;
 	line-height: 35px;
 }
@@ -514,8 +518,9 @@ span {
 			background: rgba(182,58,58,0.8);
 			-webkit-transition: margin-top 0.5s, height 0.5s, line-height 0.5s, background 0.5s;
 			color: #FFF;
-			font-family: Segoe UI Light;
-			font-size: 18px;
+			font-family: gotham;
+			font-size: 14px;
+			font-weight: bold;
 		}
 
 		#pictures ul li:hover div {
