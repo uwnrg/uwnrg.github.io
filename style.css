@@ -576,8 +576,19 @@ span {
 
 
 @media only screen and (min-width: 100px) {
+	aside {
+		display: none;
+	}
 	main {
-		background: yellow;
+		width: 100%;
+		left: 0%;
+		top: 70px;
+	}
+	#topbar {
+		display: block;
+	}
+	#nav_button {
+		display: none;
 	}
 }
 
