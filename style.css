@@ -306,6 +306,25 @@ aside #social_buttons ul li a#twitter:hover {
 	background-image: url("twitter_invert.png");
 }
 
+aside #dev {
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-family: gotham;
+	font-size: 14px;
+	font-weight: bold;
+	color: #777;
+}
+
+aside #dev a {
+	color: #777;
+	text-decoration: none;
+}
+
 main {
 	position: absolute;
 	top: 0px;
