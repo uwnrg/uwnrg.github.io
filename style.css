@@ -593,8 +593,8 @@ span {
 
 /* Media Queries */
 
-/*
-@media only screen and (min-width: 100px) {
+
+@media only screen and (max-width: 400px) {
 	aside {
 		display: none;
 	}
@@ -609,9 +609,9 @@ span {
 	#nav_button {
 		display: none;
 	}
-}*/
+}
 
-/*
+
 @media only screen and (max-width: 1400px) {
 	aside {
 		display: none;
@@ -628,7 +628,7 @@ span {
 		display: none;
 	}
 }
-/*
+
 @media only screen and (max-width: 1000px) {
 	span {
 		font-size: 100px;
@@ -640,7 +640,7 @@ span {
 		display: none;
 	}	
 }
-/*
+
 @media only screen and (max-width: 660px) {
 	span {
 		font-size: 80px;
