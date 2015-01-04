@@ -609,6 +609,9 @@ span {
 	#nav_button {
 		display: none;
 	}
+	#team_banner {
+		font-size: 50px;
+	}
 }
 
 
