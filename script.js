@@ -2,11 +2,12 @@ $(document).ready(function() {
 
 	$("#nav_button").click(function() {
 		if ($("#topnav").css("top") != "70px") {
-			$("#topnav").animate({'top':'70px'});
+			$("#topnav").css('top', '70px');
 		}
 		else {
-			$("#topnav").animate({'top':'-250px'});
+			$("#topnav").css('top', '-250px');
 		}
+
 	});
 
 
