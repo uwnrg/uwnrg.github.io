@@ -39,6 +39,7 @@ $(document).ready(function() {
 
 	$(window).resize(function() {
 		$("#wrapper1 span").html($(window).width());
+		$("#team_banner span").html($(window).width());
 /*
 		// PAGE RESIZE HERE ........ ALSO GOTTA DO THIS ON PAGE LOAD
 
