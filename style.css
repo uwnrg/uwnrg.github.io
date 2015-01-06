@@ -489,16 +489,12 @@ span {
 
 #team_p_div {
 	position: absolute;
-	top: 420px;
+	top: 400px;
 	left: calc(50% - 325px);
 	width: 650px;
 	height: 150px;
 	font-family: Segoe UI Light;
 	font-size: 18px;
-}
-
-#t_p2 {
-	top: 570px;
 }
 
 #mission_statement {
