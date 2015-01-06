@@ -472,8 +472,22 @@ span {
 #about_heading {
 	top: 650px;
 }
+/*
+#t_p1, #t_p2 {
+	position: absolute;
+	top: 420px;
+	left: calc(50% - 325px);
+	width: 650px;
+	height: 150px;
+	font-family: Segoe UI Light;
+	font-size: 18px;
+}*/
 
 #t_p1, #t_p2 {
+	margin-top: 10px;
+}
+
+#team_p_div {
 	position: absolute;
 	top: 420px;
 	left: calc(50% - 325px);
@@ -615,11 +629,16 @@ span {
 }
 
 @media only screen and (max-width: 685px) {
-	#t_p1, #t_p2 {
+	#team_p_div {
 		left: 5%;
 		width: 90%;
 		height: auto;
 	}
+
+	#heading {
+		font-size: 35px;
+	}
+
 }
 
 
