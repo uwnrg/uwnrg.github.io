@@ -1,12 +1,21 @@
 $(document).ready(function() {
 
 	$("#nav_button").click(function() {
-		if ($("#topnav").css("top") != "70px") {
+		if ($("#topnav").css("display") == "none") {
+			$("#topnav").css("display", "block");
+		}
+		else {
+			$("#topnav").css("display", "none");
+		}
+		/*if ($("#topnav").css("display", "block")) {
+			$("#topnav").css("display", "none");
+		}*/
+		/*if ($("#topnav").css("top") != "70px") {
 			$("#topnav").css('top', '70px');
 		}
 		else {
 			$("#topnav").css('top', '-250px');
-		}
+		}*/
 
 	});
 
