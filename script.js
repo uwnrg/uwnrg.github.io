@@ -18,8 +18,6 @@ $(document).ready(function() {
 		}*/
 
 	});
-
-
 /*
 	// Loading Animation
 	$("#loading_bar").animate({'width':'100%'}, 1500, "easeInExpo");

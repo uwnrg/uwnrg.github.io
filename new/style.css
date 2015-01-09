@@ -1,0 +1,123 @@
+/* CSS DOCUMENT */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+@font-face {
+	font-family: l_gothic;
+	src: url("fonts/leaguegothic-regular-webfont.ttf");
+}
+
+@font-face {
+	font-family: gotham;
+	src: url("fonts/GothamBook.ttf");
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	background: #222 url("images/gradient.jpg") repeat-x;
+}
+/*
+header {
+	position: relative;
+	left: calc(50% - 475px);
+	width: auto;
+	height: 70px;
+}*/
+
+header #header_wrapper {
+	position: absolute;
+	left: calc(50% - 410px);
+	width: 820px;
+	height: 70px;
+}
+
+header #logo {
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	height: 70px;
+	border-right: 1px solid #000;
+}
+
+header #logo a {
+	float: left;
+	text-decoration: none;
+	width: 200px;
+	height: 70px;
+	color: #B63A3A;
+	font-family: l_gothic;
+	font-size: 50px;
+	text-indent: 10px;
+	line-height: 70px;
+}
+
+header nav {
+	position: inherit;
+	left: 201px;
+	width: 600px;
+	/*width: 750px;*/
+	height: 70px;
+	border-left: 1px solid #494949;
+}
+
+header nav ul {
+	width: 600px;
+	height: 70px;
+	margin-left: 20px;
+}
+
+header nav ul li a {
+	float: left;
+	text-decoration: none;
+	width: 120px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-family: gotham;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#social_buttons {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	width: 140px;
+	height: 60px;
+}
+
+#social_buttons ul {
+	width: 140px;
+	height: 60px;
+}
+
+#social_buttons ul li a {
+	float: left;
+	width: 60px;
+	height: 60px;
+	background: blue;
+	margin-left: 10px;
+	border-radius: 100%;
+}
+
+#social_buttons ul li a#fb {
+	background: url("images/fb_social.png") no-repeat center center;
+	background-size: cover;
+}
+
+#social_buttons ul li a#twit {
+	background: url("images/twit_social.png") no-repeat center center;
+	background-size: cover;
+}
