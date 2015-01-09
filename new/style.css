@@ -19,21 +19,33 @@ ul {
 	src: url("fonts/GothamBook.ttf");
 }
 
+@font-face {
+	font-family: proxima;
+	src: url("fonts/proxima_nova.otf");
+}
+
+@font-face {
+	font-family: montserrat_regular;
+	src: url("fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+	font-family: sj;
+	src: url("fonts/Slim Joe.otf");
+}
+
+body {
+	overflow-x: hidden;
+}
+
 header {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	height: 70px;
-	background: #222 url("images/gradient.jpg") repeat-x;
+	background: #222;
 }
-/*
-header {
-	position: relative;
-	left: calc(50% - 475px);
-	width: auto;
-	height: 70px;
-}*/
 
 header #header_wrapper {
 	position: absolute;
@@ -90,8 +102,90 @@ header nav ul li a {
 	color: #FFF;
 }
 
-#social_buttons {
+#img_banner {
 	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 100%;
+	height: 55%;
+	background: #444 url("images/banner3.jpeg") no-repeat center center;
+	background-size: cover;
+}
+
+#img_banner #banner_wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: table;
+	text-align: center;
+}
+
+#img_banner #banner_wrapper span {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: montserrat_regular;
+	font-size: 100px;
+	color: #FFF;
+}
+
+main {
+	position: absolute;
+	top: calc(70px + 55%);
+	width: 100%;
+	height: 800px;
+	/*background: black;*/
+}
+
+main h1 {
+	font-family: proxima;
+	font-size: 40px;
+}
+
+main p {
+	margin: none;
+}
+
+main #post_title {
+	position: relative;
+	top: 20px;
+	left: calc(50% - 400px);
+	width: 800px;
+	height: auto;
+	text-align: left;
+}
+
+main #post_date {
+	position: relative;
+	top: 25px;
+	left: calc(50% - 400px);
+	width: 800px;
+	height: auto;
+	margin-bottom: 35px;
+	font-family: proxima;
+	font-size: 17px;
+}
+
+main #post_box {
+	position: relative;
+	top: 20px;
+	left: calc(50% - 400px);
+	width: 800px;
+	height: auto;
+	font-family: proxima;
+	font-size: 15px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #CCC;
+}
+
+main #post_box p {
+	margin-bottom: 10px;
+}
+
+#social_buttons {
+	position: fixed;
 	bottom: 50px;
 	right: 50px;
 	width: 140px;
