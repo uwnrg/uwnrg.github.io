@@ -129,6 +129,10 @@ main p {
 	margin: none;
 }
 
+main #all_posts {
+	position: relative;
+}
+
 main #post_title {
 	position: relative;
 	top: 20px;
@@ -159,7 +163,7 @@ main #post_box {
 	font-size: 15px;
 	margin-bottom: 40px;
 	border-bottom: 1px solid #CCC;
-}
+}	
 
 main #post_box p {
 	margin-bottom: 10px;
@@ -211,5 +215,9 @@ main #post_box p {
 	#img_banner {
 		/*height: 200px;*/
 		height: 200px;
+	}
+
+	main {
+		top: 270px;
 	}
 }
