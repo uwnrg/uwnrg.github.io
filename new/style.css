@@ -16,7 +16,7 @@ ul {
 
 @font-face {
 	font-family: gotham;
-	src: url("fonts/GothamBook.ttf");
+	src: url("fonts/GothamBook.otf");
 }
 
 @font-face {
@@ -220,5 +220,8 @@ main #post_box p {
 	main #post_box, main #post_date, main #post_title {
 		left: 10px;
 		width: calc(100% - 20px);
+	}
+	#img_banner #banner_wrapper span {
+		font-size: 80px;
 	}
 }
