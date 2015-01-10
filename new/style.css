@@ -59,7 +59,6 @@ header #logo {
 	left: 0px;
 	width: 200px;
 	height: 70px;
-	border-right: 1px solid #000;
 }
 
 header #logo a {
@@ -70,17 +69,16 @@ header #logo a {
 	color: #B63A3A;
 	font-family: l_gothic;
 	font-size: 50px;
-	text-indent: 10px;
+	text-indent: 30px;
 	line-height: 70px;
 }
 
 header nav {
 	position: inherit;
-	left: 201px;
+	left: 200px;
 	width: 600px;
 	/*width: 750px;*/
 	height: 70px;
-	border-left: 1px solid #494949;
 }
 
 header nav ul {
@@ -208,6 +206,13 @@ main #post_box p {
 	}
 	#img_banner #banner_wrapper span {
 		font-size: 80px;
+	}
+	header #header_wrapper {
+		left: 0px;
+		width: 100px;
+	}
+	header nav {
+		display: none;
 	}
 }
 
