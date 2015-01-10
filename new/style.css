@@ -211,6 +211,9 @@ main #post_box p {
 		left: 0px;
 		width: 100px;
 	}
+	header #logo a {
+		text-indent: 13px;
+	}
 	header nav {
 		display: none;
 	}
