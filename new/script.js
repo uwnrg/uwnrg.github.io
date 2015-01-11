@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+	$("#loading_bar").animate({
+		'width' : '100%'
+	}, 2500);
+
+	$("#loading_screen").delay(2500).fadeOut();
+
+
 	// when the navigation button is pressed in mobile view
 	$("#dd_button").click(function() {
 		if ($("#ddnav").css("top") == "-200px") {
