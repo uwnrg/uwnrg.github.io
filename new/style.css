@@ -277,7 +277,67 @@ footer {
 	background: #333;
 }
 
-@media only screen and (max-width: 840px) {
+footer #foot_content {
+	position: absolute;
+	top: 80px;
+	left: calc(50% - 400px);
+	width: 800px;
+	height: 140px;
+	border-bottom: 1px solid #727272;
+	/*background: #CCC;*/
+}
+
+footer #foot_content li {
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 200px;
+	/*background: red;*/
+}
+
+footer #foot_content li h3 {
+	font-family: gotham;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer #foot_content ul li ul#info_list {
+	margin-top: 25px;
+}
+
+footer #foot_content ul li ul#info_list li {
+	display: block;
+	color: #DDD;
+	height: 20px;
+	font-family: gotham;
+	font-size: 12.5px;
+	text-align: center;
+}
+
+footer #foot_content ul li ul#info_list li a {
+	text-decoration: none;
+	color: #CCC;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-transition: color 0.2s;
+}
+
+footer #foot_content ul li ul#info_list li a:hover {
+	color: #FFF;
+}
+
+footer #foot_content ul li ul#info_list li#i_l3 {
+	margin-top: 10px;
+}
+
+#soc-ico {
+	font-size: 17px;
+}
+
+@media only screen and (max-width: 820px) {
 	main #post_box, main #post_date, main #post_title {
 		left: 10px;
 		width: calc(100% - 20px);
