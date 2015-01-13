@@ -147,7 +147,10 @@ aside#ddnav {
 	width: 100%;
 	height: 200px;
 	background: #222;
-	z-index: 200;
+	z-index: 90;
+	-webkit-transition: top 0.5s;
+	-moz-transition: top 0.5s;
+	transition: top 0.5s;
 }
 
 aside#ddnav ul li {
@@ -171,17 +174,18 @@ aside#ddnav ul li a {
 
 #img_banner {
 	position: absolute;
-	top: 70px;
+	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 55%;
-	background: #FFF url("images/bg.jpg") no-repeat center center;
+	height: 80%;
+	background: #FFF url("images/E5.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main {
 	position: absolute;
-	top: calc(70px + 55%);
+	/*top: calc(70px + 55%);*/
+	top: 80%;
 	width: 100%;
 	height: auto;
 	/*background: #CCC;*/
@@ -333,6 +337,45 @@ footer #foot_content ul li ul#info_list li#i_l3 {
 	margin-top: 10px;
 }
 
+footer #mobile_footer {
+	/*display: none;*/
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background: red;
+
+}
+
+footer #mobile_footer ul#list1 {
+	position: absolute;
+	top: 0px;
+	background: #CCC;
+	width: 100%;
+	height: 150px;
+}
+
+footer #mobile_footer ul#list2 {
+	position: absolute;
+	top: 150px;
+	background: green;
+	width: 100%;
+	height: 150px;
+}
+
+footer #mobile_footer ul#list1 li {
+	display: inline;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+footer #mobile_footer ul#list2 li {
+	display: inline;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
 #soc-ico {
 	font-size: 17px;
 }
@@ -357,6 +400,10 @@ footer #foot_content ul li ul#info_list li#i_l3 {
 	}
 	header #header_wrapper #dd_button {
 		display: block;
+	}
+
+	footer #foot_content {
+		display: none;
 	}
 }
 

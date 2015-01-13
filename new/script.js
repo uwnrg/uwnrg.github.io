@@ -19,7 +19,7 @@ $(document).ready(function() {
 		}
 	});
 
-	$("footer").css("top", $("#img_banner").height() + $("main").height() - 96 + "px");
+	$("footer").css("top", $(window).height()*0.8 + $("main").height() + "px");
 
 	$(window).resize(function() {
 		$("footer").css("top", $("header").height() + $("#img_banner").height() + $("main").height() + "px");
