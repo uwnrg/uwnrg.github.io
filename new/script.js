@@ -6,6 +6,7 @@ $(document).ready(function() {
 		'width' : '100%'
 	}, 2500);
 
+	//$("#loading_screen").delay(2500).animate({'height':'0px'});
 	$("#loading_screen").delay(2500).fadeOut();
 
 
@@ -24,7 +25,8 @@ $(document).ready(function() {
 	//$("#logo a").html($(window).height() + ", " + $("main").height());
 
 	$(window).resize(function() {
-		$("footer").css("top", $("header").height() + $("#img_banner").height() + $("main").height() + "px");
+		$("#intro_text").css("top", intro_text_top_pos + "px");
+		//$("footer").css("top", $("header").height() + $("#img_banner").height() + $("main").height() + "px");
 		//$("#logo a").html($("main").height() + ", " +$("#img_banner").height() + ", " + $("header").height());	
 	});
 
