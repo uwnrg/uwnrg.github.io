@@ -47,6 +47,7 @@ $(document).ready(function() {
 
 		$("#intro_text").css("top", intro_text_top_pos + $(document).scrollTop()*0.2 + "px");
 		$("#intro_text").css("opacity", ($(window).height()/2 - $("#intro_text").height()/2) / (($(window).height()/2 - $("#intro_text").height()/2) + $(document).scrollTop()));
+		$("main").css("opacity", $(document).scrollTop()/350);
 		bg_size += 110 + ($(window).height() - 110)/100;
 		//$("#main_bg").css("background-size", bg_size);
 /*

@@ -223,6 +223,7 @@ main {
 	height: auto;
 	background: #FFF;
 	/*background: #CCC;*/
+	opacity: 0;
 }
 
 main h1 {
