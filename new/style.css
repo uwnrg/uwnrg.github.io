@@ -36,8 +36,8 @@ ul {
 /*
 body {
 	overflow-x: hidden;
-}
-*/
+}*/
+
 
 #loading_screen {
 	position: fixed;
@@ -181,22 +181,24 @@ aside#ddnav ul li a {
 	font-weight: bold;
 }
 
-#img_banner {
-	position: absolute;
+#main_bg {
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background: #FFF url("images/nrg_bg.jpg") no-repeat center center;
+	background: #FFF url("images/nrg_bg.jpg") no-repeat center center fixed;
 	background-size: cover;
+	z-index: -2;
 }
 
 main {
 	position: absolute;
 	/*top: calc(70px + 55%);*/
-	top: 80%;
+	top: 100%;
 	width: 100%;
 	height: auto;
+	background: #FFF;
 	/*background: #CCC;*/
 }
 
