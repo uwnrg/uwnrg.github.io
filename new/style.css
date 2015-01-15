@@ -119,9 +119,9 @@ header nav ul li a {
 	float: left;
 	text-decoration: none;
 	width: 120px;
-	height: 60px;
+	height: 70px;
 	text-align: center;
-	line-height: 70px;
+	line-height: 80px;
 	font-family: gotham;
 	font-size: 12px;
 	font-weight: bold;
@@ -203,7 +203,7 @@ aside#ddnav ul li a {
 	font-size: 20px;
 	font-weight: 200;
 	line-height: 150%;
-	background: #222;
+	background: rgba(34,34,34,0.5);
 	padding: 10px;
 	padding-left: 30px;
 	padding-right: 30px;

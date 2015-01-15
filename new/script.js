@@ -40,7 +40,15 @@ $(document).ready(function() {
 			$("header").css("top", "50px");
 			$("header").css("background", "transparent");
 		}
-//		$("#logo a").html($(document).scrollTop());
+
+		var get_intro_height = ($("#intro_text").css("top")).replace("px", "");
+		var ST = $(document).scrollTop() * 0.05;
+		get_intro_height -= ST;
+
+		$("#intro_text").css("top", get_intro_height + "px");
+
+		$("#logo a").html(get_intro_height + ", " + $(document).scrollTop());
+
 	});
 
 
