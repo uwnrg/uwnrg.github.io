@@ -192,6 +192,29 @@ aside#ddnav ul li a {
 	z-index: -2;
 }
 
+#intro_text {
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 250px);
+	width: 500px;
+	height: auto;
+	font-family: gotham;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 150%;
+	background: #222;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+#quote {
+	font-size: 80px;
+	color: #DB2C3E;
+}
+
 main {
 	position: absolute;
 	/*top: calc(70px + 55%);*/

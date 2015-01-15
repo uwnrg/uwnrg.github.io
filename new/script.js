@@ -18,6 +18,7 @@ $(document).ready(function() {
 			$("#ddnav").css("top", "-200px");
 		}
 	});
+	$("#intro_text").css("top", $(window).height()/2 - $("#intro_text").height()/2 + "px");
 
 	$("footer").css("top", $(window).height()*0.8 + $("main").height() + "px");
 
