@@ -59,7 +59,8 @@ body {
 	left: 0px;
 	width: 0%;
 	height: 0.5%;
-	background: #DB2C3E;
+	/*background: #DB2C3E;*/
+	background: #2E78BA;
 }
 
 header {
@@ -100,7 +101,7 @@ header #logo a {
 	font-size: 50px;
 	text-indent: 30px;
 	line-height: 70px;
-	background: url("images/logo.png") no-repeat center center;
+	background: url("images/logo - Copy.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -138,7 +139,8 @@ header nav ul li a {
 
 header nav ul li a:hover {
 	color: #FFF;
-	border-bottom: 3px solid #DB2C3E;
+	/*border-bottom: 3px solid #DB2C3E;*/
+	border-bottom: 3px solid #2E78BA;
 }
 
 header #header_wrapper #dd_button {
@@ -216,7 +218,8 @@ aside#ddnav ul li a {
 
 #quote {
 	font-size: 80px;
-	color: #DB2C3E;
+	/*color: #DB2C3E;*/
+	color: #2E78BA;
 }
 
 main {
