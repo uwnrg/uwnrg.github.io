@@ -30,8 +30,18 @@ ul {
 }
 
 @font-face {
+	font-family: montserrat_light;
+	src: url("fonts/Montserrat-Hairline.otf");
+}
+
+@font-face {
 	font-family: sj;
 	src: url("fonts/Slim Joe.otf");
+}
+
+@font-face {
+	font-family: myra;
+	src: url("fonts/Myra 4F Caps Bold.otf");
 }
 
 body {
@@ -186,7 +196,7 @@ aside#ddnav ul li a {
 	font-size: 12px;
 	font-weight: bold;
 }
-
+/*
 #main_bg {
 	position: fixed;
 	top: 0px;
@@ -196,24 +206,110 @@ aside#ddnav ul li a {
 	background: #FFF url("images/nrg_bg.jpg") no-repeat center center fixed;
 	background-size: 110%;
 	z-index: -2;
+}*/
+
+#who_are_we {
+	position: fixed;
+	top: calc(50% - 100px);
+	left: 0px;
+	width: 100%;
+	height: 400px;
+	background: #111;
+	color: #FFF;
 }
 
-#intro_text {
+#who_are_we #info_txt {
 	position: fixed;
+	width: 50%;
+	height: 100%;
+}
+
+#who_are_we #info_txt h1 {
+	position: absolute;
 	top: 0px;
-	left: calc(50% - 250px);
+	left: 0px;
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	font-family: gotham;
+	font-size: 40px;
+	line-height: 140px;
+}
+
+#who_are_we #info_txt p {
+	position: absolute;
+	top: 140px;
+	left: 0px;
+	width: calc(100% - 100px);
+	height: 260px;
+	font-family: montserrat_light;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#who_are_we #info_pic {
+	position: absolute;
+	right: 0px;
+	width: 50%;
+	height: 100%;
+	background: url("images/info_pic - Copy.jpg") no-repeat center center fixed;
+	/*background-size: cover;*/
+	/*background-size: auto 100%;*/
+	/*-webkit-transition: background-position 0.2s;*/
+	/*-webkit-animation: zoom_bg 5s;*/
+}
+
+#who_are_we #info_pic #f_o_more_button {
+	position: absolute;
+	top: calc(50% - 30px);
+	left: 37.5%;
+	width: 25%;
+	height: 50px;
+	background: #FFF;
+	padding: 10px;
+	text-align: center;
+	line-height: 55px;
+	color: #000;
+	font-family: gotham;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	border: 4px solid #FFF;
+	-webkit-transition: color 0.2s, background 0.2s;
+}
+
+#who_are_we #info_pic #f_o_more_button:hover {
+	color: #FFF;
+	background: #2F78B9;
+}
+
+
+
+#intro_text {
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	width: 500px;
 	height: auto;
-	font-family: gotham;
+	/*top: auto;
+	left: auto;
+	width: auto;
+	height: auto;*/
+	font-family: proxima;
 	color: #FFF;
-	font-size: 20px;
-	font-weight: 200;
-	line-height: 150%;
+	font-size: 25px;
 	background: rgba(34,34,34,0.8);
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
+	padding: 20px;
+}
+
+#intro_text h1 {
+	text-align: center;
+}
+
+#intro_text p {
+	padding-top: 10px;
 }
 
 #quote {
@@ -230,7 +326,7 @@ main {
 	height: auto;
 	background: #FFF;
 	/*background: #CCC;*/
-	opacity: 0;
+	/*opacity: 0;*/
 }
 
 main h1 {

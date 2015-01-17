@@ -20,20 +20,24 @@ $(document).ready(function() {
 		}
 	});
 
-	$("footer").css("top", $(window).height()*0.8 + $("main").height() + "px");
+	//$("footer").css("top", $(window).height()*0.8 + $("main").height() + "px");
 
 	//$("#logo a").html($(window).height() + ", " + $("main").height());
 
+	/*var intro_text_top_pos = $(window).height()/2 - $("#who_are_we").height()/2;
+	var intro_text_left_pos = $(window).width()/2 - $("#who_are_we").width()/2;
+
+	$("#who_are_we").css("top", intro_text_top_pos + "px");
+	$("#who_are_we").css("left", intro_text_left_pos + "px");	
+
 	$(window).resize(function() {
-		$("#intro_text").css("top", intro_text_top_pos + "px");
-		//$("footer").css("top", $("header").height() + $("#img_banner").height() + $("main").height() + "px");
-		//$("#logo a").html($("main").height() + ", " +$("#img_banner").height() + ", " + $("header").height());	
-	});
+		var intro_text_top_pos = $(window).height()/2 - $("#who_are_we").height()/2;
+		var intro_text_left_pos = $(window).width()/2 - $("#who_are_we").width()/2;		
+		$("#who_are_we").css("top", intro_text_top_pos + "px");
+		$("#who_are_we").css("left", intro_text_left_pos + "px");
+	});*/
 
-	var bg_size = 110;
-	var intro_text_top_pos = $(window).height()/2 - $("#intro_text").height()/2;
-
-	$("#intro_text").css("top", intro_text_top_pos + "px");
+	//var waw_top_pos = $(window).height()/2 - 100;
 
 	$(document).scroll(function() {
 		if ($(document).scrollTop() - 50 >= 0) {
@@ -47,10 +51,13 @@ $(document).ready(function() {
 			$("header").css("background", "transparent");
 		}
 
-		$("#intro_text").css("top", intro_text_top_pos + $(document).scrollTop()*0.2 + "px");
-		$("#intro_text").css("opacity", ($(window).height()/2 - $("#intro_text").height()/2) / (($(window).height()/2 - $("#intro_text").height()/2) + $(document).scrollTop()));
-		$("main").css("opacity", $(document).scrollTop()/350);
-		bg_size += 110 + ($(window).height() - 110)/100;
+		$("#who_are_we").css("left", -$(document).scrollTop() + "px");
+		//$("#who_are_we").css("top")
+
+		/*$("#who_are_we").css("top", intro_text_top_pos + $(document).scrollTop()*0.2 + "px");
+		$("#who_are_we").css("opacity", ($(window).height()/2 - $("#who_are_we").height()/2) / (($(window).height()/2 - $("#who_are_we").height()/2) + $(document).scrollTop()));
+		*/
+		//$("main").css("opacity", $(document).scrollTop()/350);
 		//$("#main_bg").css("background-size", bg_size);
 /*
 		var get_intro_height = ($("#intro_text").css("top")).replace("px", "");
