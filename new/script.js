@@ -10,17 +10,9 @@ $(document).ready(function() {
 	$("#loading_screen").delay(2500).fadeOut();
 
 
-	// when the navigation button is pressed in mobile view
-	$("#dd_button").click(function() {
-		if ($("#ddnav").css("top") == "-200px") {
-			$("#ddnav").css("top", "70px");
-		}
-		else {
-			$("#ddnav").css("top", "-200px");
-		}
-	});
 
-	//$("footer").css("top", $(window).height()*0.8 + $("main").height() + "px");
+	//$("main").css("height", $("#all_posts").height() + $("#posts_banner").height() + "px");
+	//$("footer").css("top", $("main").height() + "px");
 
 	//$("#logo a").html($(window).height() + ", " + $("main").height());
 
@@ -52,8 +44,8 @@ $(document).ready(function() {
 		}
 
 		//$("#who_are_we").css("top", ($("#who_are_we").css("top")).replace("px","") + $(document).scrollTop()*1.1 + "px");
-		var intro_text_top_pos = $(window).height()/2 - 100;
-		$("#who_are_we").css("top", intro_text_top_pos + $(document).scrollTop()*0.2 + "px");
+		//var intro_text_top_pos = $(window).height()/2 - 100;
+		//$("#who_are_we").css("top", intro_text_top_pos + $(document).scrollTop()*0.2 + "px");
 		//$("#who_are_we").css("top")
 
 		/*$("#who_are_we").css("top", intro_text_top_pos + $(document).scrollTop()*0.2 + "px");

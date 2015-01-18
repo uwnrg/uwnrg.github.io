@@ -8,12 +8,13 @@
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="easings.js"></script>
 	</head>
 	<body>
 
-		<section id="loading_screen">
+		<!--<section id="loading_screen">
 			<div id="loading_bar"></div>
-		</section>
+		</section>-->
 	
 		<header>
 			<div id="header_wrapper">
@@ -27,7 +28,6 @@
 						<li><a href="#">CONTACT US</a></li>
 					</ul>
 				</nav>
-				<div id="dd_button"></div>
 			</div> <!-- end header_wrapper div -->
 		</header>
 
@@ -64,39 +64,54 @@
 		<!--<section id="img_banner">
 		</section>-->
 
+
+
 		<main>
+			<div id="posts_banner">
+				<span>Posts</span>
+			</div>
 			<div id="all_posts">
 				<ul>
 					<li>
 						<div class="post_title" id="post1"><h1>UWNRG is Now Recruiting!</h1></div>
-						<div class="post_teaser">Join now!</div>
+						<div class="post_teaser" id="post1_teaser">Join now!</div>
 						<div class="post_date" id="post1_date"><em>Posted on September 17, 2014</em></div>
 					</li>
 					<li>
 						<div class="post_title" id="post2"><h1>Sample Post Title</h1></div>
-						<div class="post_teaser">Sample post teaser.</div>
+						<div class="post_teaser" id="post2_teaser">Sample post teaser.</div>
 						<div class="post_date" id="post2_date"><em>Posted on January 9, 2015</em></div>
 					</li>
 					<li>
 						<div class="post_title" id="post3"><h1>Sample Post Title</h1></div>
-						<div class="post_teaser">Sample post teaser.</div>
-						<div class="post_date"><em>Posted on January 9, 2015</em></div>
+						<div class="post_teaser" id="post3_teaser">Sample post teaser.</div>
+						<div class="post_date" id="post3_date"><em>Posted on January 9, 2015</em></div>
 					</li>
 					<li>
 						<div class="post_title" id="post4"><h1>Sample Post Title</h1></div>
-						<div class="post_teaser">Sample post teaser.</div>
-						<div class="post_date"><em>Posted on January 9, 2015</em></div>
+						<div class="post_teaser" id="post4_teaser">Sample post teaser.</div>
+						<div class="post_date" id="post4_date"><em>Posted on January 9, 2015</em></div>
 					</li>
 					<li>
 						<div class="post_title" id="post5"><h1>Sample Post Title</h1></div>
-						<div class="post_teaser">Sample post teaser.</div>
-						<div class="post_date"><em>Posted on January 9, 2015</em></div>
+						<div class="post_teaser" id="post5_teaser">Sample post teaser.</div>
+						<div class="post_date" id="post5_date"><em>Posted on January 9, 2015</em></div>
 					</li>
 					<li>
 						<div class="post_title" id="post6"><h1>Sample Post Title</h1></div>
-						<div class="post_teaser">Sample post teaser.</div>
-						<div class="post_date"><em>Posted on January 9, 2015</em></div>
+						<div class="post_teaser" id="post6_teaser">Sample post teaser.</div>
+						<div class="post_date" id="post6_date"><em>Posted on January 9, 2015</em></div>
 					</li>
+					<li>
+						<div class="post_title" id="post7"><h1>Sample Post Title</h1></div>
+						<div class="post_teaser" id="post7_teaser">Sample post teaser.</div>
+						<div class="post_date" id="post7_date"><em>Posted on January 9, 2015</em></div>
+					</li>
+					<li>
+						<div class="post_title" id="post8"><h1>Sample Post Title</h1></div>
+						<div class="post_teaser" id="post8_teaser">Sample post teaser.</div>
+						<div class="post_date" id="post8_date"><em>Posted on January 9, 2015</em></div>
+					</li>			
 				</ul>
 			</div> <!-- end all_posts div -->
 			<div class="post_view" id="post1_view">
@@ -117,6 +132,40 @@
 				<div class="post_view_date" id="post2_view_date"></div>
 				<div id="close_button"></div>
 			</div>			
+			<footer>
+				<div id="foot_content">
+					<ul>
+						<li>
+							<h3>CONTACT US</h3>
+							<ul id="info_list">
+								<li id="i_l1">Ryan Kearns</li>
+								<li id="i_l2">Project Director</li>
+								<li id="i_l3"><a href="mailto:ryan@uwnrg.org">ryan@uwnrg.org</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>JOIN US</h3>
+							<ul id="info_list">
+								<li id="i_l1"><a href="mailto:uwnrg.recruiting@gmail.com">uwnrg.recruiting@gmail.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>FOLLOW US</h3>
+							<ul id="info_list">
+								<li id="i_l1"><a href="http://www.facebook.com/uwnrg"><i class="fi-social-facebook" id="soc-ico"></i> Facebook</a></li>
+								<li id="i_l2"><a href="https://twitter.com/uwnrg"><i class="fi-social-twitter" id="soc-ico"></i> Twitter</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>SPONSOR US</h3>
+							<ul id="info_list">
+								<li id="i_l1">Sponsor Man</li>
+								<li id="i_l2">Lead: Business Development</li>
+								<li id="i_l3"><a href="#">Sponsor Man Email</a></li>
+							</ul>
+						</li>
+					</ul>
+			</div> <!-- end foot_content div --></footer>
 		</main>
 <!--
 		<footer>
