@@ -585,6 +585,25 @@ footer #foot_content ul li ul#info_list li a:hover {
 footer #foot_content ul li ul#info_list li#i_l3 {
 	margin-top: 10px;
 }
+
+footer #dev_name {
+	position: absolute;
+	bottom: 30px;
+	left: calc(50% - 200px);
+	width: 400px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #FFF;
+	font-family: proxima;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+footer #dev_name a {
+	color: #FFF;
+}
+
 /*
 footer #mobile_footer {
 	/*display: none;*/
