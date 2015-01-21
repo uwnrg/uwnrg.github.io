@@ -67,23 +67,12 @@ body {
 	background-size: cover;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-    background: transparent;
-}
- 
-/* Track 
-::-webkit-scrollbar-track {
+body#robots {
 	background: #FFF;
-}*/
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-	width: 10px;
-    border-radius: 5px;
-    background: #222; 
 }
-
+.row {
+	background: #FFF;
+}
 
 #loading_screen {
 	position: fixed;
@@ -143,7 +132,12 @@ header #logo a {
 	font-size: 50px;
 	text-indent: 30px;
 	line-height: 70px;
-	background: url("images/logo - Copy.png") no-repeat center center;
+	background: url("images/logo.png") no-repeat center center;
+	background-size: cover;
+}
+
+header #logo a#robots {
+	background: url("images/logo2.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -162,7 +156,7 @@ header nav ul {
 	margin-left: 20px;
 }
 
-header nav ul li a {
+header nav ul li a, header nav#robots ul li a {
 	float: left;
 	text-decoration: none;
 	width: 120px;
@@ -183,6 +177,22 @@ header nav ul li a:hover {
 	color: #FFF;
 	/*border-bottom: 3px solid #DB2C3E;*/
 	border-bottom: 3px solid #2E78BA;
+}
+
+header nav ul li a#onlink {
+	border-bottom: 3px solid #2E78BA;
+}
+
+header nav#robots ul li a {
+	color: #333;
+}
+
+header nav#robots ul li a:hover {
+	color: #000;
+}
+
+header nav#robots ul li a#onlink {
+	border-bottom: 3px solid #333;
 }
 
 header #header_wrapper #dd_button {
@@ -228,6 +238,66 @@ aside#ddnav ul li a {
 	font-size: 12px;
 	font-weight: bold;
 }
+
+#robots_list {
+	position: absolute;
+	top: calc(50% - 200px);
+	left: calc(50% - 400px);
+	width: 800px;
+	height: 500px;
+}
+
+#robots_list ul li {
+	float: left;
+	width: 250px;
+	height: 250px;
+	background: transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: center;
+	color: #FFF;
+	font-family: gotham;
+	font-size: 22px;
+	cursor: pointer;
+	line-height: 40px;
+}
+
+#robots_list ul li span {
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 40px;
+	background: #000;
+	margin-top: 210px;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.2s;
+}
+
+#robots_list ul li:hover span {
+	opacity: 1;
+}
+
+#robots ul li#michelle {
+	background: url("images/michelle.png") no-repeat center center;
+	background-size: cover;
+}
+
+#robots ul li#sam {
+	background: url("images/sam.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+#robots ul li#saw {
+	background: url("images/saw.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+#robots ul li#emma {
+	background: url("images/emma.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+
 /*
 #main_bg {
 	position: fixed;
@@ -488,6 +558,23 @@ main #post_box {
 main #post_box p {
 	margin-bottom: 10px;
 }
+
+
+
+
+
+#all_robots {
+	position: absolute;
+	top: calc(50% - 100px);
+	left: calc(50% - 400px);
+	width: 800px;
+	height: 200px;
+}
+
+
+
+
+
 
 #social_buttons {
 	position: fixed;

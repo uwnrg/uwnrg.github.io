@@ -10,13 +10,11 @@ $(document).ready(function() {
 	$("#loading_screen").delay(2500).fadeOut();
 
 
-
 	//$("main").css("height", $("#all_posts").height() + $("#posts_banner").height() + "px");
 	//$("footer").css("top", $("main").height() + "px");
 
 	//$("#logo a").html($(window).height() + ", " + $("main").height());
 
-	var intro_text_top_pos = $(window).height()/2 - 200;
 	/*var intro_text_left_pos = $(window).width()/2 - $("#who_are_we").width()/2;
 
 	$("#who_are_we").css("top", intro_text_top_pos + "px");
