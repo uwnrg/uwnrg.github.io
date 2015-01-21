@@ -280,22 +280,31 @@ aside#ddnav ul li a {
 
 #robots ul li#michelle {
 	background: url("images/michelle.png") no-repeat center center;
-	background-size: cover;
+	background-size: 100%;
+	-webkit-transition: background-size 0.2s;
 }
 
 #robots ul li#sam {
 	background: url("images/sam.jpg") no-repeat center center;
-	background-size: cover;
+	background-size: 100%;
+	-webkit-transition: background-size 0.2s;
 }
 
 #robots ul li#saw {
 	background: url("images/saw.jpg") no-repeat center center;
-	background-size: cover;
+	background-size: 100%;
+	-webkit-transition: background-size 0.2s;
 }
 
 #robots ul li#emma {
 	background: url("images/emma.jpg") no-repeat center center;
-	background-size: cover;
+	background-size: 100%;
+	-webkit-transition: background-size 0.2s;
+}
+
+#robots_list ul li#michelle:hover, #robots_list ul li#sam:hover, #robots_list ul li#saw:hover,
+#robots_list ul li#emma:hover{
+	background-size: 150%;
 }
 
 

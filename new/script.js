@@ -89,15 +89,6 @@ $(document).ready(function() {
 		}
 	});
 
-	/*$("#all_posts").click(function() {
-
-		for (var each_post = 1; each_post <= post_list.length; each_post++) {
-			$("#post" + each_post).click(function() {
-				//$("#post" + each_post + "_view").css("display", "block");
-				alert("#post".concat(each_post));
-			});
-		}
-	});*/
 
 
 });
