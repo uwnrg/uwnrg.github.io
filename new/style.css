@@ -189,6 +189,7 @@ header nav#robots ul li a {
 
 header nav#robots ul li a:hover {
 	color: #000;
+	border-bottom: 3px solid #333;
 }
 
 header nav#robots ul li a#onlink {
