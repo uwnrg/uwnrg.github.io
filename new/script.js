@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
 	// animation for the loading screen
-	/*
+	
 	$("#loading_bar").animate({
 		'width' : '100%'
 	}, 2500);
 
 	//$("#loading_screen").delay(2500).animate({'height':'0px'});
-	$("#loading_screen").delay(2500).fadeOut();*/
+	$("#loading_screen").delay(2500).fadeOut();
 
 
 	//$("main").css("height", $("#all_posts").height() + $("#posts_banner").height() + "px");
