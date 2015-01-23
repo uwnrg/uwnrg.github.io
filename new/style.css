@@ -60,7 +60,7 @@ ul {
 }
 
 body {
-	background: #000 url("images/nrg_bg.jpg") no-repeat center center fixed;
+	background: #000 url("images/nrg_bg.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -142,7 +142,7 @@ header #logo a#robots {
 }
 
 header nav {
-	position: inherit;
+	position: absolute;
 	top: 25px;
 	left: 280px;
 	width: 600px;
@@ -208,6 +208,12 @@ header #header_wrapper #dd_button {
 	cursor: pointer;
 }
 
+header#posts {
+	position: fixed;
+	top: 0px;
+	background: #222;
+}
+
 aside#ddnav {
 	position: fixed;
 	top: -200px;
@@ -240,88 +246,9 @@ aside#ddnav ul li a {
 	font-weight: bold;
 }
 
-#robots_list {
-	position: absolute;
-	top: calc(50% - 200px);
-	left: calc(50% - 400px);
-	width: 800px;
-	height: 500px;
-}
-
-#robots_list ul li {
-	float: left;
-	width: 250px;
-	height: 250px;
-	background: transparent;
-	margin-top: 5px;
-	margin-left: 5px;
-	text-align: center;
-	color: #FFF;
-	font-family: gotham;
-	font-size: 22px;
-	cursor: pointer;
-	line-height: 40px;
-}
-
-#robots_list ul li span {
-	position: relative;
-	float: left;
-	width: 250px;
-	height: 40px;
-	background: #000;
-	margin-top: 210px;
-	opacity: 0.5;
-	-webkit-transition: opacity 0.2s;
-}
-
-#robots_list ul li:hover span {
-	opacity: 1;
-}
-
-#robots ul li#michelle {
-	background: url("images/michelle.png") no-repeat center center;
-	background-size: 100%;
-	-webkit-transition: background-size 0.2s;
-}
-
-#robots ul li#sam {
-	background: url("images/sam.jpg") no-repeat center center;
-	background-size: 100%;
-	-webkit-transition: background-size 0.2s;
-}
-
-#robots ul li#saw {
-	background: url("images/saw.jpg") no-repeat center center;
-	background-size: 100%;
-	-webkit-transition: background-size 0.2s;
-}
-
-#robots ul li#emma {
-	background: url("images/emma.jpg") no-repeat center center;
-	background-size: 100%;
-	-webkit-transition: background-size 0.2s;
-}
-
-#robots_list ul li#michelle:hover, #robots_list ul li#sam:hover, #robots_list ul li#saw:hover,
-#robots_list ul li#emma:hover{
-	background-size: 150%;
-}
-
-
-/*
-#main_bg {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 100%;
-	background: #FFF url("images/nrg_bg.jpg") no-repeat center center fixed;
-	background-size: 110%;
-	z-index: -2;
-}*/
 
 #who_are_we {
-	position: fixed;
+	position: absolute;
 	top: calc(50% - 100px);
 	left: 0px;
 	width: 100%;
@@ -366,7 +293,7 @@ aside#ddnav ul li a {
 	right: 0px;
 	width: 50%;
 	height: 100%;
-	background: url("images/info_pic - Copy.jpg") no-repeat center center fixed;
+	background: url("images/info_pic - Copy.jpg") no-repeat;
 	background-size: cover;
 }
 
@@ -399,7 +326,7 @@ aside#ddnav ul li a {
 main {
 	position: absolute;
 	/*top: calc(70px + 55%);*/
-	top: 100%;
+	top: 100px;
 	width: 100%;
 	height: auto;
 	background: #FFF;
@@ -423,7 +350,7 @@ main #posts_banner {
 	left: 0px;
 	width: 100%;
 	height: 400px;
-	background: url("images/posts_bg.jpg") no-repeat center center;
+	background: url("images/basement.jpg") no-repeat center bottom;
 	background-size: cover;
 	display: table;
 	text-align: center;
@@ -582,9 +509,149 @@ main #post_box p {
 }
 
 
+main #robots_section {
+	position: relative;
+	top: 0px;
+	left: calc(50% - 400px);
+	width: 800px;
+	height: 500px;
+	/*background: blue;*/
+}
 
+main #robots_section #emma {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background: url("images/emma.jpg") no-repeat center center;
+	background-size: cover;
+	cursor: pointer;
+}
 
+main #robots_section #emma_txt {
+	position: absolute;
+	top: 10px;
+	left: 310px;
+	width: 490px;
+	height: 300px;
+	font-family: proxima;
+	font-size: 17px;
+}
 
+main #robots_section #robots_list {
+	position: absolute;
+	top: 320px;
+	left: calc(50% - 530px);
+	width: 1040px;
+	height: 300px;
+}
+
+main #robots_section #robots_list ul li {
+	float: left;
+	width: 250px;
+	height: 250px;
+	background: red;
+	margin-left: 10px;
+	font-family: gotham;
+	font-weight: bold;
+	font-size: 25px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+main #robots_section #robots_list ul li span, main #robots_section #emma span {
+	position: absolute;
+	top: 210px;
+	width: 250px;
+	height: 40px;
+	background: #333;
+	line-height: 40px;
+	text-align: center;
+	-webkit-transition: top 0.2s, height 0.2s, line-height 0.2s, color 0.2s;
+	-moz-transition: top 0.2s, height 0.2s, line-height 0.2s, color 0.2s;
+	transition: top 0.2s, height 0.2s, line-height 0.2s, color 0.2s;
+}
+
+main #robots_section #emma span {
+	top: 260px;
+	width: 300px;
+	color: #FFF;
+	font-family: gotham;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+main #robots_section #robots_list ul li:hover span {
+	top: 0px;
+	height: 250px;
+	line-height: 250px;
+	color: #2F78B9;
+}
+
+main #robots_section #emma:hover span {
+	top: 0px;
+	height: 300px;
+	line-height: 300px;
+	color: #2F78B9;
+}
+
+main #robots_section #robots_list ul li#michelle {
+	background: url("images/michelle.png") no-repeat center center;
+	background-size: 100%;
+}
+
+main #robots_section #robots_list ul li#sam {
+	background: url("images/sam.jpg") no-repeat center center;
+	background-size: 100%;
+}
+
+main #robots_section #robots_list ul li#saw {
+	background: url("images/saw.jpg") no-repeat center center;
+	background-size: 100%;
+}
+
+main #robots_section #robots_list ul li#maya {
+	background: url("images/android.png") no-repeat center center;
+	background-size: 75%;
+}
+
+#preview_michelle, #preview_sam, #preview_saw, #preview_maya {
+	position: absolute;
+	top: calc(50% - 250px);
+	left: calc(50% - 250px);
+	width: 500px;
+	height: auto;
+	background: #FFF;
+	z-index: 2000;
+	box-shadow: 0px 0px 200px #000;
+	display: none;
+}
+
+#robot_title {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 75px;
+	background: #333;
+	text-align: center;
+	font-family: proxima;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 75px;
+	color: #FFF;
+}
+
+#robot_info {
+	position: relative;
+	top: 0px;
+	left: 2.5%;
+	width: 95%;
+	font-family: proxima;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 #social_buttons {
 	position: fixed;
@@ -619,8 +686,8 @@ main #post_box p {
 }
 
 footer {
-	position: relative;
-	top: 0px;
+	position: absolute;
+	top: 100%;
 	left: 0px;
 	width: 100%;
 	height: 300px;

@@ -1,4 +1,36 @@
 $(document).ready(function() {
+	$("#michelle").click(function() {
+		//$("#preview_michelle").fadeIn();
+		$("#preview_michelle").fadeIn();
+		$("#preview_sam").fadeOut();
+		$("#preview_saw").fadeOut();
+		$("#preview_maya").fadeOut();	
+	});	
+	$("#sam").click(function() {
+		//$("#preview_michelle").fadeIn();
+		$("#preview_michelle").fadeOut();
+		$("#preview_sam").fadeIn();
+		$("#preview_saw").fadeOut();
+		$("#preview_maya").fadeOut();
+	});	
+	$("#saw").click(function() {
+		//$("#preview_michelle").fadeIn();
+		$("#preview_michelle").fadeOut();
+		$("#preview_sam").fadeOut();
+		$("#preview_saw").fadeIn();
+		$("#preview_maya").fadeOut();
+	});	
+	$("#maya").click(function() {
+		//$("#preview_michelle").fadeIn();
+		$("#preview_michelle").fadeOut();
+		$("#preview_sam").fadeOut();
+		$("#preview_saw").fadeOut();
+		$("#preview_maya").fadeIn();
+	});
+	$("#preview_michelle").click(function() {$("#preview_michelle").fadeOut()});	
+	$("#preview_sam").click(function() {$("#preview_sam").fadeOut()});
+	$("#preview_saw").click(function() {$("#preview_saw").fadeOut()});
+	$("#preview_maya").click(function() {$("#preview_maya").fadeOut()});
 
 	// animation for the loading screen
 	
@@ -8,6 +40,10 @@ $(document).ready(function() {
 
 	//$("#loading_screen").delay(2500).animate({'height':'0px'});
 	$("#loading_screen").delay(2500).fadeOut();
+
+	$("#f_o_more_button").click(function() {
+		window.location = "posts.html";
+	});
 
 
 	//$("main").css("height", $("#all_posts").height() + $("#posts_banner").height() + "px");
@@ -31,14 +67,14 @@ $(document).ready(function() {
 
 	$(document).scroll(function() {
 		if ($(document).scrollTop() - 50 >= 0) {
-			$("header").css("position", "fixed");
-			$("header").css("top", "0px");
-			$("header").css("background", "#222");
+			$("#front").css("position", "fixed");
+			$("#front").css("top", "0px");
+			$("#front").css("background", "#222");
 		}
 		else {
-			$("header").css("position", "absolute");
-			$("header").css("top", "50px");
-			$("header").css("background", "transparent");
+			$("#front").css("position", "absolute");
+			$("#front").css("top", "50px");
+			$("#front").css("background", "transparent");
 		}
 
 		//$("#who_are_we").css("top", ($("#who_are_we").css("top")).replace("px","") + $(document).scrollTop()*1.1 + "px");
@@ -88,6 +124,7 @@ $(document).ready(function() {
 			}
 		}
 	});
+
 
 
 

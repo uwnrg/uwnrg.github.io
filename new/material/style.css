@@ -24,7 +24,7 @@ header {
 	background: #439fef;
 }
 
-#title {
+#title, #footer_title {
 	position: absolute;
 	top: calc(50% - 25px);
 	width: 100%;
@@ -81,7 +81,7 @@ main #tiles {
 	position: relative;
 	margin-top: 100px;
 	left: 20%;
-	max-width: calc(60% + 100px);
+	max-width: calc(60%);
 	height: 410px;
 }
 
@@ -142,4 +142,27 @@ main #tiles ul li#tile4 {
 
 main #tiles ul li#tile5 {
 	background: #FFCD40;
+}
+
+main footer {
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height: 100px;
+	background: #222;
+}
+
+main #footer_title {
+position: absolute;
+	top: calc(50% - 25px);
+	width: 100%;
+	height: 100px;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 25px;	
+	color: #FFF;
+	text-align: left;
+	max-width: 100%;
+	line-height: 50px;
+	text-indent: 20%;
 }
