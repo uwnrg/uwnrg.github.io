@@ -4,32 +4,23 @@
 	}
 	#load {
 		position: absolute;
-		top: calc(50%);
-		left: calc(50%);
-		width: 0px;
-		height: 0px;
-		background: #FFF;
-		border-radius: 100%;
-		-webkit-animation: load 0.8s infinite;
+		top: calc(50% - 65.5px);
+		left: calc(50% - 250px);
+		width: 500px;
+		height: 131px;
+		background: url("images/logo.png") no-repeat center center;
+		background-size: cover;
+		-webkit-animation: load 2s infinite;
 	}
+	
 	@-webkit-keyframes load {
-		0% {top: calc(50%); left: calc(50%); width: 0px; height: 0px;opacity: 1;}
-		100% {top: calc(50% - 25px); left: calc(50% - 25px); width: 50px; height: 50px;opacity: 0;}
+		0% {opacity: 1;}
+		50% {opacity: 0;}
+		100% {opacity: 1;}
 	}
-	#tri {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		width: 0px;
-		height: 0px;
-		background: #000;
-		border-left: transparent; border-right: transparent; border-top: transparent;
-		border-bottom: 8px solid #FFF;
-	}
+
 </style>
 
 <div id="load">
 
 </div>
-
-<div id="tri"></div>
