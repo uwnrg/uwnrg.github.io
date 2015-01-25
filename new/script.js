@@ -35,7 +35,7 @@ $(document).ready(function() {
 	// animation for the loading screen
 	
 	$("#loading_bar").animate({
-		'width' : '100%'
+		'width' : '15%'
 	}, 2500);
 
 	//$("#loading_screen").delay(2500).animate({'height':'0px'});

@@ -86,8 +86,8 @@ body#robots {
 
 #loading_screen #loading_bar {
 	position: inherit;
-	top: 0px;
-	left: 0px;
+	top: 49.75%;
+	left: 42.5%;
 	width: 0%;
 	height: 0.5%;
 	/*background: #DB2C3E;*/
