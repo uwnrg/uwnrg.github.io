@@ -1,37 +1,4 @@
 $(document).ready(function() {
-	$("#michelle").click(function() {
-		//$("#preview_michelle").fadeIn();
-		$("#preview_michelle").fadeIn();
-		$("#preview_sam").fadeOut();
-		$("#preview_saw").fadeOut();
-		$("#preview_maya").fadeOut();	
-	});	
-	$("#sam").click(function() {
-		//$("#preview_michelle").fadeIn();
-		$("#preview_michelle").fadeOut();
-		$("#preview_sam").fadeIn();
-		$("#preview_saw").fadeOut();
-		$("#preview_maya").fadeOut();
-	});	
-	$("#saw").click(function() {
-		//$("#preview_michelle").fadeIn();
-		$("#preview_michelle").fadeOut();
-		$("#preview_sam").fadeOut();
-		$("#preview_saw").fadeIn();
-		$("#preview_maya").fadeOut();
-	});	
-	$("#maya").click(function() {
-		//$("#preview_michelle").fadeIn();
-		$("#preview_michelle").fadeOut();
-		$("#preview_sam").fadeOut();
-		$("#preview_saw").fadeOut();
-		$("#preview_maya").fadeIn();
-	});
-	$("#preview_michelle").click(function() {$("#preview_michelle").fadeOut()});	
-	$("#preview_sam").click(function() {$("#preview_sam").fadeOut()});
-	$("#preview_saw").click(function() {$("#preview_saw").fadeOut()});
-	$("#preview_maya").click(function() {$("#preview_maya").fadeOut()});
-
 	// animation for the loading screen
 	
 	/*$("#loading_bar").animate({
@@ -47,24 +14,57 @@ $(document).ready(function() {
 	});
 
 
-	//$("main").css("height", $("#all_posts").height() + $("#posts_banner").height() + "px");
-	//$("footer").css("top", $("main").height() + "px");
 
-	//$("#logo a").html($(window).height() + ", " + $("main").height());
 
-	/*var intro_text_left_pos = $(window).width()/2 - $("#who_are_we").width()/2;
 
-	$("#who_are_we").css("top", intro_text_top_pos + "px");
-	$("#who_are_we").css("left", intro_text_left_pos + "px");	
 
-	$(window).resize(function() {
-		var intro_text_top_pos = $(window).height()/2 - $("#who_are_we").height()/2;
-		var intro_text_left_pos = $(window).width()/2 - $("#who_are_we").width()/2;		
-		$("#who_are_we").css("top", intro_text_top_pos + "px");
-		$("#who_are_we").css("left", intro_text_left_pos + "px");
-	});*/
 
-	//var waw_top_pos = $(window).height()/2 - 100;
+
+/*
+
+main #robots_section #emma span {
+	top: 210px;
+	width: 250px;
+	color: #FFF;
+	font-family: gotham;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+main #robots_section #robots_list ul li:hover span {
+	top: 0px;
+	height: 250px;
+	line-height: 250px;
+	color: #2F78B9;
+}
+
+*/
+	// when the robots are clicked
+	$("#michelle").click(function() {
+		$("#dark_page").fadeIn("fast");
+		$(".hidden_info").fadeIn("fast");
+		$("#michelle span").css("z-index", "2001");
+		$("#michelle span").css("top", "-100px");
+		$("#michelle span").css("width", "550px");
+		$("#michelle span").css("height", "350px");
+		$("#michelle span").css("background", "white");
+		$("#michelle span").css("line-height", "auto");
+		$("#michelle span").css("box-shadow", "0px 0px 50px #333");
+		$("#michelle span").text("");
+		// when clicking on the dark region, the robot info box disappears
+		$("#dark_page").click(function() {
+			$(".hidden_info").fadeOut("fast");
+			$("#dark_page").fadeOut("fast");
+			$("#michelle span").css("z-index", "2001");
+			$("#michelle span").css("top", "210px");
+			$("#michelle span").css("width", "250px");
+			$("#michelle span").css("height", "40px");
+			$("#michelle span").css("background", "#333");
+			$("#michelle span").css("line-height", "40px");
+			$("#michelle span").css("box-shadow", "none");
+			$("#michelle span").text("Michelle");	
+		});
+	});
 
 	$(document).scroll(function() {
 		if ($(document).scrollTop() - 50 >= 0) {

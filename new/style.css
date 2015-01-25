@@ -362,6 +362,17 @@ aside#ddnav ul li a {
 	background: #2F78B9;
 }
 
+#dark_page {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(33,33,33,0.5);
+	z-index: 2000;
+	display: none;
+}
+
 main {
 	position: absolute;
 	/*top: calc(70px + 55%);*/
@@ -607,9 +618,9 @@ main #robots_section #robots_list ul li span, main #robots_section #emma span {
 	background: #333;
 	line-height: 40px;
 	text-align: center;
-	-webkit-transition: top 0.2s, height 0.2s, line-height 0.2s, color 0.2s;
-	-moz-transition: top 0.2s, height 0.2s, line-height 0.2s, color 0.2s;
-	transition: top 0.2s, height 0.2s, line-height 0.2s, color 0.2s;
+	-webkit-transition: top 0.2s, height 0.2s, width 0.2s, line-height 0.2s, color 0.2s;
+	-moz-transition: top 0.2s, height 0.2s, width 0.2s, line-height 0.2s, color 0.2s;
+	transition: top 0.2s, height 0.2s, width 0.2s, line-height 0.2s, color 0.2s;
 }
 
 main #robots_section #emma span {
@@ -633,6 +644,50 @@ main #robots_section #emma:hover span {
 	height: 250px;
 	line-height: 250px;
 	color: #2F78B9;
+}
+
+main #robots_section #robots_list ul li .hidden_info {
+	position: absolute;
+	top: -100px;
+	left: 10px;
+	width: 550px;
+	height: 350px;
+	z-index: 2002;
+	display: none;
+}
+
+main #robots_section #robots_list ul li .hidden_info #rob_title {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	background: #333;
+	text-align: center;
+	line-height: 70px;
+}
+
+main #robots_section #robots_list ul li .hidden_info #rob_img {
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	width: 250px;
+	height: 250px;
+	background: url("images/michelle.png") no-repeat center center;
+	background-size: 100%;
+}
+
+main #robots_section #robots_list ul li .hidden_info #rob_info {
+	position: absolute;
+	top: 80px;
+	left: 270px;
+	width: 270px;
+	height: 250px;
+	color: #000;
+	font-family: proxima;
+	font-size: 15px;
+	font-weight: normal;
+	overflow-y: scroll;
 }
 
 main #robots_section #robots_list ul li#michelle {
