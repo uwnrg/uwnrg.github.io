@@ -38,7 +38,8 @@ $(document).ready(function() {
 		'width' : '15%'
 	}, 2500);*/
 
-	$("#loading_screen").delay(4000).animate({'height':'0px', 'opacity':'0'}, 500);
+	//$("#loading_screen").delay(4000).animate({'height':'0px', 'opacity':'0'}, 500);
+	$("#loading_screen").delay(4000).fadeOut("slow");
 	/*$("#loading_screen").delay(6000).fadeOut();*/
 
 	$("#f_o_more_button").click(function() {

@@ -110,10 +110,24 @@ body#robots {
 	background: url("images/logo.png") no-repeat center center;
 	background-size: cover;
 	-webkit-animation: load 2s;
+	-moz-animation: load 2s;
+	-animation: load 2s;
 	-webkit-animation-iteration-count: 2;
+	-moz-animation-iteration-count: 2;
+	-animation-iteration-count: 2;
 }
 
 @-webkit-keyframes load {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes load {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes load {
 	0% {opacity: 1;}
 	50% {opacity: 0;}
 	100% {opacity: 1;}
@@ -537,8 +551,8 @@ main #post_box p {
 main #robots_section {
 	position: relative;
 	top: 0px;
-	left: calc(50% - 400px);
-	width: 800px;
+	left: calc(50% - 520px);
+	width: 1040px;
 	height: 500px;
 	/*background: blue;*/
 }
@@ -546,9 +560,9 @@ main #robots_section {
 main #robots_section #emma {
 	position: absolute;
 	top: 10px;
-	left: 0px;
-	width: 300px;
-	height: 300px;
+	left: 10px;
+	width: 250px;
+	height: 250px;
 	background: url("images/emma.jpg") no-repeat center center;
 	background-size: cover;
 	cursor: pointer;
@@ -558,16 +572,16 @@ main #robots_section #emma_txt {
 	position: absolute;
 	top: 10px;
 	left: 310px;
-	width: 490px;
-	height: 300px;
+	width: 730px;
+	height: 250px;
 	font-family: proxima;
 	font-size: 17px;
 }
 
 main #robots_section #robots_list {
 	position: absolute;
-	top: 320px;
-	left: calc(50% - 530px);
+	top: 270px;
+	left: calc(50% - 520px);
 	width: 1040px;
 	height: 300px;
 }
@@ -599,8 +613,8 @@ main #robots_section #robots_list ul li span, main #robots_section #emma span {
 }
 
 main #robots_section #emma span {
-	top: 260px;
-	width: 300px;
+	top: 210px;
+	width: 250px;
 	color: #FFF;
 	font-family: gotham;
 	font-size: 25px;
@@ -616,8 +630,8 @@ main #robots_section #robots_list ul li:hover span {
 
 main #robots_section #emma:hover span {
 	top: 0px;
-	height: 300px;
-	line-height: 300px;
+	height: 250px;
+	line-height: 250px;
 	color: #2F78B9;
 }
 
