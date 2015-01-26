@@ -1,9 +1,9 @@
 $(document).ready(function() {
 	// animation for the loading screen
 	
-	/*$("#loading_bar").animate({
-		'width' : '15%'
-	}, 2500);*/
+	$("#loading_bar").animate({
+		'width' : '100%'
+	}, 4000);
 
 	//$("#loading_screen").delay(4000).animate({'height':'0px', 'opacity':'0'}, 500);
 	$("#loading_screen").delay(4000).fadeOut(1000);
