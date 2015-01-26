@@ -14,6 +14,35 @@ $(document).ready(function() {
 	});
 
 
+	// when the user clicks on the close button on the robot info popup
+	$(".robot_info_close").click(function() {
+		$("#michelle_info").fadeOut();
+		$("#sam_info").fadeOut();
+		$("#saw_info").fadeOut();
+		$("#maya_info").fadeOut();
+		$("#dark_page").fadeOut();
+	})
+
+	$("#michelle").click(function() {
+		$("#dark_page").fadeIn();
+		$("#michelle_info").fadeIn();
+	})
+
+	$("#sam").click(function() {
+		$("#dark_page").fadeIn();
+		$("#sam_info").fadeIn();
+	})
+
+	$("#saw").click(function() {
+		$("#dark_page").fadeIn();
+		$("#saw_info").fadeIn();
+	})
+
+	$("#maya").click(function() {
+	$("#dark_page").fadeIn();
+	$("#maya_info").fadeIn();
+	})
+
 
 
 
@@ -39,32 +68,6 @@ main #robots_section #robots_list ul li:hover span {
 }
 
 */
-	// when the robots are clicked
-	$("#michelle").click(function() {
-		$("#dark_page").fadeIn("fast");
-		$(".hidden_info").fadeIn("fast");
-		$("#michelle span").css("z-index", "2001");
-		$("#michelle span").css("top", "-100px");
-		$("#michelle span").css("width", "550px");
-		$("#michelle span").css("height", "350px");
-		$("#michelle span").css("background", "white");
-		$("#michelle span").css("line-height", "auto");
-		$("#michelle span").css("box-shadow", "0px 0px 50px #333");
-		$("#michelle span").text("");
-		// when clicking on the dark region, the robot info box disappears
-		$("#dark_page").click(function() {
-			$(".hidden_info").fadeOut("fast");
-			$("#dark_page").fadeOut("fast");
-			$("#michelle span").css("z-index", "2001");
-			$("#michelle span").css("top", "210px");
-			$("#michelle span").css("width", "250px");
-			$("#michelle span").css("height", "40px");
-			$("#michelle span").css("background", "#333");
-			$("#michelle span").css("line-height", "40px");
-			$("#michelle span").css("box-shadow", "none");
-			$("#michelle span").text("Michelle");	
-		});
-	});
 
 	$(document).scroll(function() {
 		if ($(document).scrollTop() - 50 >= 0) {
