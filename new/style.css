@@ -764,10 +764,10 @@ main #robots_section #robots_list ul li#maya {
 #sam_info #robot_pic {
 	position: absolute;
 	top: 75px;
-	left: 5px;
+	left: 0px;
 	width: 275px;
 	height: 275px;
-	background: url("images/michelle.png") no-repeat center center;
+	background: url("images/sam.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
@@ -825,7 +825,7 @@ main #robots_section #robots_list ul li#maya {
 	left: 5px;
 	width: 275px;
 	height: 275px;
-	background: url("images/michelle.png") no-repeat center center;
+	background: url("images/saw.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
@@ -880,10 +880,10 @@ main #robots_section #robots_list ul li#maya {
 #maya_info #robot_pic {
 	position: absolute;
 	top: 75px;
-	left: 5px;
+	left: 0px;
 	width: 275px;
 	height: 275px;
-	background: url("images/michelle.png") no-repeat center center;
+	background: #000 url("images/maya.jpg") no-repeat center center;
 	background-size: 100%;
 }
 

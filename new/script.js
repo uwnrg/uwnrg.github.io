@@ -13,15 +13,20 @@ $(document).ready(function() {
 		window.location = "posts.html";
 	});
 
-
-	// when the user clicks on the close button on the robot info popup
-	$(".robot_info_close").click(function() {
+	function close_all() {
 		$("#michelle_info").fadeOut();
 		$("#sam_info").fadeOut();
 		$("#saw_info").fadeOut();
 		$("#maya_info").fadeOut();
 		$("#dark_page").fadeOut();
+	}
+
+	// when the user clicks on the close button on the robot info popup
+	$(".robot_info_close").click(function() {
+		close_all();
 	})
+
+	$("#dark_page").click(function() { close_all(); });
 
 	$("#michelle").click(function() {
 		$("#dark_page").fadeIn();
