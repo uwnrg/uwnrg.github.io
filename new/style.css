@@ -540,7 +540,7 @@ main #post_box {
 	margin-bottom: 40px;
 	border-bottom: 1px solid #CCC;
 	background: green;
-}	
+}
 */
 main #post_box p {
 	margin-bottom: 10px;
@@ -561,11 +561,10 @@ main #post_box p {
 
 main #robots_section {
 	position: relative;
-	top: 0px;
+	top: 50px;
 	left: calc(50% - 520px);
 	width: 1040px;
 	height: 500px;
-	/*background: blue;*/
 }
 
 main #robots_section #emma {
@@ -640,9 +639,6 @@ main #robots_section #robots_list ul li:hover span {
 }
 
 main #robots_section #emma:hover span {
-	top: 0px;
-	height: 250px;
-	line-height: 250px;
 	color: #2F78B9;
 }
 
@@ -896,6 +892,45 @@ main #robots_section #robots_list ul li#maya {
 	font-family: proxima;
 	font-size: 15px;
 	padding: 5px;
+}
+
+main #contact_section {
+	position: relative;
+	top: 50px;
+	left: calc(50% - 520px);
+	width: 1040px;
+	height: 700px;
+}
+
+main #contact_section h1 {
+	margin-top: 50px;
+}
+
+main #contact_section h1:nth-child(1) {
+	margin-top: 0px;
+}
+
+main #contact_section p {
+	margin: 20px;
+	font-family: proxima;
+	margin-bottom: 5px;
+}
+
+main #contact_section a {
+	margin-left: 20px;
+	font-family: proxima;
+}
+
+main #contact_section a:nth-child(1) {
+	margin-left: 0px;
+}
+
+main #contact_section #mailing_address p {
+	margin-top: 0px;
+}
+
+main #contact_section #mailing_address p:nth-child(1) {
+	margin-top: 20px;
 }
 
 #social_buttons {
