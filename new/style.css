@@ -933,6 +933,12 @@ main #contact_section #mailing_address p:nth-child(1) {
 	margin-top: 20px;
 }
 
+main #contact_section #contact_map {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
 #social_buttons {
 	position: fixed;
 	bottom: 50px;
