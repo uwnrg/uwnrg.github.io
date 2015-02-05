@@ -394,7 +394,7 @@ main p {
 	margin: none;
 }
 
-main #posts_banner {
+main #posts_banner, main #cont_banner {
 	position: relative;
 	top: 0px;
 	left: 0px;
@@ -406,7 +406,12 @@ main #posts_banner {
 	text-align: center;
 }
 
-main #posts_banner span {
+main #cont_banner {
+	background: url("images/basement.jpg") no-repeat center bottom;
+	background-size: cover;
+}
+
+main #posts_banner span, main #cont_banner span {
 	display: table-cell;
 	vertical-align: middle;
 	font-family: montserrat_bold;
