@@ -6,6 +6,11 @@ $(document).ready(function() {
 	$("#f_o_more_button").click(function() {
 		window.location = "posts.html";
 	});
+
+	$("#tagline").delay(3000).fadeOut();
+	$("#statement").delay(3000).fadeIn();
+
+
 	function close_all() {
 		$("#michelle_info").fadeOut();
 		$("#sam_info").fadeOut();
