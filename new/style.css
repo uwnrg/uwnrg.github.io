@@ -59,55 +59,12 @@ ul {
 	src: url("fonts/Lora-Regular.ttf");
 }
 
-.bg_wrapper {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 100%;
-	background: #FFF url("images/nrg_bg.jpg") no-repeat center center;
+body {
+	background: #000 url("images/nrg_bg.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-.bg_wrapper #tagline {
-	position: absolute;
-	top: calc(50% - 75px);
-	left: calc(50% - 400px);
-	width: 800px;
-	height: 150px;
-	text-align: center;
-}
-
-.bg_wrapper #tagline h1 {
-	font-family: gotham;
-	font-size: 60px;
-	color: #FFF;
-}
-
-.intro_content #intro_wrapper p {
-	font-family: proxima;
-	font-size: 25px;
-	font-weight: 200;
-	margin-left: calc(50% - 375px);
-	width: 750px;
-	line-height: 35px;
-}
-
-.bg_wrapper #statement {
-	position: absolute;
-	top: calc(50% - 90px);
-	left: calc(50% - 375px);
-	width: 750px;
-	height: 180px;
-	font-family: montserrat_light;
-	font-size: 30px;
-	line-height: 40px;
-	color: #FFF;
-	text-align: center;
-	display: none;
 }
 
 body#robots {
@@ -296,65 +253,6 @@ header#posts {
 	background: #222;
 }
 
-.intro_content {
-	position: absolute;
-	top: 700px;
-	left: 0px;
-	width: 100%;
-	height: 400px;
-}
-
-.intro_content #intro_wrapper {
-	position: relative;
-}
-
-.intro_content #intro_wrapper h1 {
-	font-family: gotham;
-	font-size: 40px;
-	text-align: center;
-	padding: 30px 0px 30px 0px;
-}
-
-.intro_content #intro_wrapper p {
-	font-family: proxima;
-	font-size: 25px;
-	font-weight: 200;
-	margin-left: calc(50% - 375px);
-	width: 750px;
-	line-height: 35px;
-}
-
-
-
-.intro_content #intro_wrapper #f_o_more_button {
-	margin-top: 30px;
-	margin-left: calc(50% - 125px);
-	width: 250px;
-	height: 50px;
-	background: #FFF;
-	padding: 10px;
-	text-align: center;
-	line-height: 55px;
-	color: #000;
-	font-family: gotham;
-	font-weight: bold;
-	font-size: 15px;
-	cursor: pointer;
-	border: 3px solid #000;
-	-webkit-transition: color 0.2s, background 0.2s;
-	-moz-transition: color 0.2s, background 0.2s;
-	transition: color 0.2s, background 0.2s;
-}
-
-.intro_content #intro_wrapper #f_o_more_button:hover {
-	color: #FFF;
-	background: #2F78B9;
-	border: 3px solid #2F78B9;
-}
-
-
-
-
 aside#ddnav {
 	position: fixed;
 	top: -200px;
@@ -387,7 +285,7 @@ aside#ddnav ul li a {
 	font-weight: bold;
 }
 
-/*
+
 #who_are_we {
 	position: absolute;
 	top: calc(50% - 100px);
@@ -463,7 +361,7 @@ aside#ddnav ul li a {
 	color: #FFF;
 	background: #2F78B9;
 }
-*/
+
 #dark_page {
 	position: fixed;
 	top: 0px;
