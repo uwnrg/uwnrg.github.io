@@ -755,6 +755,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(8) {
 main #sponsors_section #sponsors_list ul li:nth-child(9) {
 	background: #FFF url("images/sponsors/engsoc.jpg") no-repeat center center;
 	background-size: 100%;
+	margin-left: 270px;	
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(10) {
