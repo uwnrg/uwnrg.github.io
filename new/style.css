@@ -613,15 +613,19 @@ main #robots_section #robots_list, main #sponsors_section #sponsors_list {
 }
 
 main #sponsors_section #sponsors_list {
-	top: 250px;
+	top: 0px;
 }
 
 main #sponsors_section #sponsors_title h1 {
+	position: absolute;
+	margin-top: 775px;
+	width: 100%;
 	text-align: center;
 }
 
 main #sponsors_section #sponsors_info {
-	margin-top: 30px;
+	position: absolute;
+	margin-top: 850px;
 	font-family: proxima;
 	line-height: 23px;
 	width: 80%;
