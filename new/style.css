@@ -575,7 +575,7 @@ main #post_box p {
 }
 
 
-main #robots_section {
+main #robots_section, main #sponsors_section {
 	position: relative;
 	top: 50px;
 	left: calc(50% - 520px);
@@ -604,15 +604,32 @@ main #robots_section #emma_txt {
 	font-size: 17px;
 }
 
-main #robots_section #robots_list {
+main #robots_section #robots_list, main #sponsors_section #sponsors_list {
 	position: absolute;
-	top: 270px;
+	top: 0px;
 	left: calc(50% - 520px);
 	width: 1040px;
 	height: 300px;
 }
 
-main #robots_section #robots_list ul li {
+main #sponsors_section #sponsors_list {
+	top: 250px;
+}
+
+main #sponsors_section #sponsors_title h1 {
+	text-align: center;
+}
+
+main #sponsors_section #sponsors_info {
+	margin-top: 30px;
+	font-family: proxima;
+	line-height: 23px;
+	width: 80%;
+	height: 150px;
+	margin-left: 10%;
+}
+
+main #robots_section #robots_list ul li, main #sponsors_section #sponsors_list ul li {
 	float: left;
 	width: 250px;
 	height: 250px;
@@ -676,6 +693,56 @@ main #robots_section #robots_list ul li#saw {
 main #robots_section #robots_list ul li#maya {
 	background: #000 url("images/maya.jpg") no-repeat center center;
 	background-size: 75%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(1) {
+	background: #FFF url("images/sponsors/Agilent_Technologies-Logo.png") no-repeat center center;
+	background-size: 100%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(2) {
+	background: #FFF url("images/sponsors/ECE_Logo.png") no-repeat center center;
+	background-size: 50%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(3) {
+	background: #FFF url("images/sponsors/mme_logo.jpg") no-repeat center center;
+	background-size: 70%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(4) {
+	background: #FFF url("images/sponsors/icf_logo_thin.png") no-repeat center center;
+	background-size: 120%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(5) {
+	background: #FFF url("images/sponsors/mef.png") no-repeat center center;
+	background-size: 100%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(6) {
+	background: #FFF url("images/sponsors/nova wafers.png") no-repeat center center;
+	background-size: 100%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(7) {
+	background: #FFF url("images/sponsors/SFF.jpg") no-repeat center center;
+	background-size: 80%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(8) {
+	background: #FFF url("images/sponsors/WaterlooLogo.gif") no-repeat center center;
+	background-size: 100%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(9) {
+	background: #FFF url("images/sponsors/engsoc.jpg") no-repeat center center;
+	background-size: 100%;
+}
+
+main #sponsors_section #sponsors_list ul li:nth-child(10) {
+	background: #FFF url("images/sponsors/weef.png") no-repeat center center;
+	background-size: 100%;
 }
 
 #michelle_info {
