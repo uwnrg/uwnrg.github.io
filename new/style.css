@@ -642,6 +642,19 @@ main #robots_section #robots_list ul li, main #sponsors_section #sponsors_list u
 	cursor: pointer;
 }
 
+main #sponsors_section #sponsors_list ul li a {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0;
+	-webkit-transition: opacity 0.4s;
+}
+
+main #sponsors_section #sponsors_list ul li a:hover {
+	opacity: 0.05;
+}
+
 main #robots_section #robots_list ul li span, main #robots_section #emma span {
 	position: absolute;
 	top: 210px;
@@ -717,7 +730,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(4) {
 
 main #sponsors_section #sponsors_list ul li:nth-child(5) {
 	background: #FFF url("images/sponsors/mef.png") no-repeat center center;
-	background-size: 100%;
+	background-size: 80%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(6) {
