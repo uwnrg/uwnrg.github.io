@@ -1094,17 +1094,32 @@ main #team_section .exec_list li .execl_wrapper p#role {
 
 main #team_section .team_lists {
 	width: 100%;
-	height: 600px;
+	height: 2000px;
 	margin-top: 30px;
+	/*background: red;*/
+}
+
+main #team_section .team_lists h2 {
+	margin-top: 20px;
+	text-align: center;
 }
 
 main #team_section .team_lists .teams_ul {
 	width: 100%;
 	height: 300px;
+	/*background: green;*/
 }
 
-main #team_section .team_lists #team_leaders {
-	height: 740px;
+main #team_section .team_lists #team_leaders, main #team_section .team_lists #sam2 {
+	height: 700px;
+}
+
+main #team_section .team_lists #maya2 {
+	height: 875px;
+}
+
+main #team_section .team_lists #saw2 {
+	height: 525px;
 }
 
 main #team_section .team_lists #team_leaders li:nth-child(1) .pic {
@@ -1142,6 +1157,116 @@ main #team_section .team_lists #team_leaders li:nth-child(7) .pic {
 	background-size: cover;
 }
 
+main #team_section .team_lists #maya2 li:nth-child(1) .pic {
+	background: url("images/Team/Ryan Kearns.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(2) .pic {
+	background: url("images/Team/chrisleonard.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(3) .pic {
+	background: url("images/Team/tonywu.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(4) .pic {
+	background: url("images/Team/Isaac Harris.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(5) .pic {
+	background: url("images/Team/Connor_Adair.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(6) .pic {
+	background: url("images/Team/Thomas Storwick.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(7) .pic {
+	background: url("images/Team/Eric_Koop.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(8) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #maya2 li:nth-child(9) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #saw2 li:nth-child(1) .pic {
+	background: url("images/Team/Jeffrey_dEon.JPG") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #saw2 li:nth-child(2) .pic {
+	background: url("images/Team/MacLean Kuraitis.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #saw2 li:nth-child(3) .pic {
+	background: url("images/Team/Mayuran Saravanapavanantham.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #saw2 li:nth-child(4) .pic {
+	background: url("images/Team/Max_Hamilton.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #saw2 li:nth-child(5) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #saw2 li:nth-child(6) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #sam2 li:nth-child(1) .pic {
+	background: url("images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #sam2 li:nth-child(2) .pic {
+	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #sam2 li:nth-child(3) .pic {
+	background: url("images/Team/Scott_Wheeler.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #sam2 li:nth-child(4) .pic {
+	background: url("images/Team/Manasa Kaniselvan.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #sam2 li:nth-child(5) .pic {
+	background: url("images/Team/Vyshakh Sanjeev.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #sam2 li:nth-child(6) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #sam2 li:nth-child(7) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
+	background-size: cover;
+}
+
 main #team_section .team_lists .teams_ul li .name {
 	margin-left: 150px;
 	margin-top: -103px;
@@ -1160,6 +1285,7 @@ main #team_section .team_lists .teams_ul li {
 	width: 498px;
 	height: 133px;
 	margin-top: 40px;
+	background: #EEE;
 	border: 1px solid #CCC;
 	transition: 0.2s;
 }
