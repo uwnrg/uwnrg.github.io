@@ -390,6 +390,11 @@ main h1 {
 	font-size: 40px;
 }
 
+main h2 {
+	font-family: montserrat_regular;
+	font-size:  30px;
+}
+
 main p {
 	margin: none;
 }
@@ -995,7 +1000,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	padding: 5px;
 }
 
-main #contact_section {
+main #contact_section, main #team_section {
 	position: relative;
 	top: 50px;
 	left: calc(50% - 520px);
@@ -1003,26 +1008,26 @@ main #contact_section {
 	height: 700px;
 }
 
-main #contact_section h1 {
+main #contact_section h1, main #team_section h1 {
 	margin-top: 50px;
 }
 
-main #contact_section h1:nth-child(1) {
+main #contact_section h1:nth-child(1), main #team_section h1:nth-child(1) {
 	margin-top: 0px;
 }
 
-main #contact_section p {
+main #contact_section p, main #team_section p {
 	margin: 20px;
 	font-family: proxima;
 	margin-bottom: 5px;
 }
 
-main #contact_section a {
+main #contact_section a, main #contact_section a {
 	margin-left: 20px;
 	font-family: proxima;
 }
 
-main #contact_section a:nth-child(1) {
+main #contact_section a:nth-child(1), main #team_section a:nth-child(1) {
 	margin-left: 0px;
 }
 
@@ -1038,6 +1043,148 @@ main #contact_section #contact_map {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+}
+
+main #team_section .exec_list li {
+	width: 75%;
+	margin-left: 12.5%;
+	height: 170px;
+	margin-top: 20px;
+}
+
+main #team_section .exec_list li .execl_wrapper {
+	width: 100%;
+	height: 170px;
+}
+
+main #team_section .exec_list li .execl_wrapper .member_pic {
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 170px;
+}
+
+main #team_section .exec_list li .execl_wrapper #scott {
+	background: url("images/Team/Scott_Wheeler.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .exec_list li .execl_wrapper #mayuran {
+	background: url("images/Team/Mayuran Saravanapavanantham.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .exec_list li .execl_wrapper h3 {
+	position: relative;
+	margin-left: 170px;
+	margin-top: -120px;
+	font-family: proxima;
+}
+
+main #team_section .exec_list li .execl_wrapper p {
+	margin-top: 0px;
+	margin-left: 170px;
+}
+
+main #team_section .exec_list li .execl_wrapper p#role {
+	font-style: italic;
+}
+
+/* team lists */
+
+main #team_section .team_lists {
+	width: 100%;
+	height: 600px;
+	margin-top: 30px;
+}
+
+main #team_section .team_lists .teams_ul {
+	width: 100%;
+	height: 300px;
+}
+
+main #team_section .team_lists #team_leaders {
+	height: 740px;
+}
+
+main #team_section .team_lists #team_leaders li:nth-child(1) .pic {
+	background: url("images/Team/Ryan Kearns.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #team_leaders li:nth-child(2) .pic {
+	background: url("images/Team/Jeffrey_dEon.JPG") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #team_leaders li:nth-child(3) .pic {
+	background: url("images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #team_leaders li:nth-child(4) .pic {
+	background: url("images/Team/Anthony_Silvaroli.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #team_leaders li:nth-child(5) .pic {
+	background: url("images/Team/evan.JPG") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #team_leaders li:nth-child(6) .pic {
+	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #team_leaders li:nth-child(7) .pic {
+	background: url("images/Team/Jatin_Patil.jpeg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists .teams_ul li .name {
+	margin-left: 150px;
+	margin-top: -103px;
+	font-family: proxima;
+}
+
+main #team_section .team_lists .teams_ul li .extra_desc {
+	margin-left: 150px;
+	margin-top: 8px;
+	font-family: proxima;
+	font-style: italic;
+}
+
+main #team_section .team_lists .teams_ul li {
+	float: left;
+	width: 498px;
+	height: 133px;
+	margin-top: 40px;
+	border: 1px solid #CCC;
+	transition: 0.2s;
+}
+
+main #team_section .team_lists .teams_ul li:hover {
+	background: #2E78BA;
+	color: #FFF;
+}
+
+main #team_section .team_lists .teams_ul li:nth-child(odd) {
+	margin-right: 20px;
+}
+
+main #team_section .team_lists .teams_ul li:nth-child(even) {
+	margin-left: 20px;
+}
+
+main #team_section .team_lists .teams_ul li.last {
+	margin-left: 269px;
+}
+
+main #team_section .team_lists .teams_ul li .pic {
+	width: 133px;
+	height: 133px;
+	background: #000;
 }
 
 #social_buttons {
