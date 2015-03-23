@@ -1115,12 +1115,11 @@ main #team_section .team_lists #software {
 }
 
 main #team_section .team_lists #team_leaders, main #team_section .team_lists #saw2, main #team_section .team_lists #sam2,
-main #team_section .team_lists #michelle2, main #team_section .team_lists #maya2,  main #team_section .team_lists #controls,
-main #team_section .team_lists #business  {
+main #team_section .team_lists #michelle2, main #team_section .team_lists #maya2, main #team_section .team_lists #business  {
 	height: 526px; /* three rows */
 }
 
-main #team_section .team_lists #sam2, main #team_section .team_lists #marketing {
+main #team_section .team_lists #sam2, main #team_section .team_lists #controls, main #team_section .team_lists #marketing {
 	height: 700px; /* four rows */
 }
 
@@ -1301,22 +1300,22 @@ main #team_section .team_lists #controls li:nth-child(4) .pic {
 }
 
 main #team_section .team_lists #controls li:nth-child(5) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
-	background-size: cover;
-}
-
-main #team_section .team_lists #controls li:nth-child(6) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
-	background-size: cover;
-}
-
-main #team_section .team_lists #software li:nth-child(1) .pic {
 	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
 	background-size: cover;
 }
 
-main #team_section .team_lists #software li:nth-child(2) .pic {
+main #team_section .team_lists #controls li:nth-child(6) .pic {
 	background: url("images/Team/Sahibjot Saggu.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #controls li:nth-child(7) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .team_lists #controls li:nth-child(8) .pic {
+	background: url("images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
