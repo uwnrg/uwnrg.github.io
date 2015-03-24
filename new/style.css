@@ -383,11 +383,6 @@ main {
 	/*background: #CCC;*/
 	/*opacity: 0;*/
 }
-
-.events {
-	background: black;
-}
-
 main h1 {
 	font-family: montserrat_bold;
 	font-size: 40px;
@@ -446,6 +441,11 @@ main #all_posts {
 	height: auto;
 }
 /****************************************************/
+
+#events_section1 #all_posts ul li .post_title h1, 
+#events_section2 #all_posts ul li .post_title h1 {
+	font-size: 25px;
+}
 
 main #all_posts .post_title {
 	position: relative;
