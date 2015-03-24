@@ -384,6 +384,9 @@ main {
 	/*opacity: 0;*/
 }
 
+.events {
+	background: black;
+}
 
 main h1 {
 	font-family: montserrat_bold;
@@ -442,10 +445,7 @@ main #all_posts {
 	width: 810px;
 	height: auto;
 }
-
-main #all_posts .all_posts {
-	position: relative;
-}
+/****************************************************/
 
 main #all_posts .post_title {
 	position: relative;
@@ -567,10 +567,6 @@ main #post_box p {
 	margin-bottom: 10px;
 }
 
-
-
-
-
 #all_robots {
 	position: absolute;
 	top: calc(50% - 100px);
@@ -578,7 +574,6 @@ main #post_box p {
 	width: 800px;
 	height: 200px;
 }
-
 
 main #robots_section, main #sponsors_section {
 	position: relative;
@@ -1000,12 +995,26 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	padding: 5px;
 }
 
-main #contact_section, main #team_section {
+main #contact_section, main #team_section, main #events_section1 {
 	position: relative;
 	top: 50px;
 	left: calc(50% - 520px);
 	width: 1040px;
 	height: 700px;
+}
+
+main #events_section1 {
+	left: 0px;
+	width: 50%;
+	background: red;
+}
+
+main #events_section2 {
+	position: absolute;
+	top: 350px;
+	width: 50%;
+	right: 0px;
+	background: green;
 }
 
 main #contact_section h1, main #team_section h1 {
