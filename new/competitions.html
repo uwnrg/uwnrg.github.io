@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Events | UWNRG</title>
+        <title>Competitions | UWNRG</title>
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="foundation/foundation-icons.css" />
@@ -30,20 +30,60 @@
 
         <div id="dark_page"></div>
 
-        <main class="choices">
+        <main class="events">
             <div id="cont_banner" style="height: 300px;">
-                <span style="text-shadow: 0px 0px 2px #000;">Events</span>
+                <span>Competitions</span>
                 <div class="credits">Credits to: Nick Manning, UWaterloo Asset Bank</div>
             </div>
-            <div class="choice_list">
-                <ul>
-                    <li><a href="competitions.html" id="comp">Competitions</a></li>
-                    <li><a href="conferences.html" id="conf">Conferences</a></li>
-                </ul>
-            </div>
-        </main>
 
-            <footer style="position: relative; top: 1000px;">
+            <div id="events_section">
+                <div id="all_posts">
+                    <ul>
+                        <li>
+                            <div class="post_title" id="post1"><h1>ICRA 2014 HONG KONG, CHINA</h1></div>
+                            <div class="post_teaser" id="post1_teaser"></div>
+                            <div class="post_date" id="post1_date"><em>Posted on June 7, 2014</em></div>
+                        </li>
+                        <li>
+                            <div class="post_title" id="post2"><h1>ICRA 2013 KARLSRUHE, GERMANY</h1></div>
+                            <div class="post_teaser" id="post2_teaser"></div>
+                            <div class="post_date" id="post2_date"><em>Posted on January 9, 2015</em></div>
+                        </li>
+                        <li>
+                            <div class="post_title" id="post3"><h1>ICRA 2012 ST. PAUL, MINNESOTA</h1></div>
+                            <div class="post_teaser" id="post3_teaser"></div>
+                            <div class="post_date" id="post3_date"><em>Posted on January 9, 2015</em></div>
+                        </li>
+                        <li>
+                            <div class="post_title" id="post3"><h1>ICRA 2011 SHANGHAI, CHINA</h1></div>
+                            <div class="post_teaser" id="post3_teaser"></div>
+                            <div class="post_date" id="post3_date"><em>Posted on January 9, 2015</em></div>
+                        </li>  
+
+                        <li>
+                            <div class="post_title" id="post3"><h1>ICRA 2010 ANCHORAGE, ALASKA</h1></div>
+                            <div class="post_teaser" id="post3_teaser"></div>
+                            <div class="post_date" id="post3_date"><em>Posted on May 8, 2010</em></div>
+                        </li>         
+                    </ul>
+                </div> <!-- end all_posts div -->
+            </div> <!-- end events_section1 div -->
+
+            <div class="post_view" id="post1_view">
+                <div class="post_view_title" id="post1_view_title"></div>
+                <div class="post_view_date" id="post1_view_date"></div>
+                <div class="post_view_content" id="post1_view_content">
+                    <p>Working on this...</p>
+                </div>
+                <div id="close_button"></div>
+            </div>
+            <div class="post_view" id="post2_view">
+                <div class="post_view_title" id="post2_view_title"></div>
+                <div class="post_view_date" id="post2_view_date"></div>
+                <div id="close_button"></div>
+            </div>
+
+            <footer style="position: relative;">
                 <div id="foot_content">
                     <ul>
                         <li>
@@ -81,6 +121,6 @@
             </footer>
         </main>
         <script type="text/javascript" src="jquery.js"></script>
-        <script type="text/javascript" src="script-min.js"></script>        
+        <script type="text/javascript" src="script.js"></script>        
     </body>
 </html>

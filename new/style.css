@@ -412,7 +412,7 @@ main #posts_banner, main #cont_banner {
 }
 
 main #cont_banner {
-	background: url("images/basement.jpg") no-repeat center bottom;
+	background: url("images/nano.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -567,9 +567,25 @@ main #post_box p {
 	margin-bottom: 10px;
 }
 
+main .choice_list ul li a {
+	float: left;
+	text-decoration: none;
+	width: 50%;
+	background: red;
+	height: 400px;
+	text-align: center;
+	line-height: 400px;
+	color: #FFF;
+	font-family: gotham;
+	font-size: 50px;
+	background: #2F78B9;
+	transition: 0.2s;
+}
 
-
-
+main .choice_list ul li a:hover {
+	background: #FFF;
+	color: #2F78B9;
+}
 
 #all_robots {
 	position: absolute;
@@ -1000,7 +1016,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	padding: 5px;
 }
 
-main #contact_section, main #team_section {
+main #contact_section, main #team_section, main #event_section {
 	position: relative;
 	top: 50px;
 	left: calc(50% - 520px);
