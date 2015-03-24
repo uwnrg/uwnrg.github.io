@@ -383,6 +383,8 @@ main {
 	/*background: #CCC;*/
 	/*opacity: 0;*/
 }
+
+
 main h1 {
 	font-family: montserrat_bold;
 	font-size: 40px;
@@ -436,33 +438,20 @@ main .credits {
 main #all_posts {
 	position: relative;
 	top: 0px;
-	left: 0px;
-	width: 100%;
+	left: calc(50% - 405px);
+	width: 810px;
 	height: auto;
 }
-/****************************************************/
 
-#events_section1 #all_posts ul li .post_title h1, 
-#events_section2 #all_posts ul li .post_title h1 {
-	font-size: 25px;
-	margin-left: 20px;
-}
-
-#events_section1 #all_posts ul li .post_date,  
-#events_section2 #all_posts ul li .post_date {
-	margin-left: 20px;
-}
-
-
-#events_section1 #all_posts ul li .post_title {
-	background: blue;
+main #all_posts .all_posts {
+	position: relative;
 }
 
 main #all_posts .post_title {
 	position: relative;
 	top: 0px;
-	left: 0px;
-	width: 100%;
+	left: calc(50% - 400px);
+	width: 800px;
 	height: auto;
 	text-align: left;
 	padding-top: 30px;
@@ -479,7 +468,7 @@ main #all_posts .post_title:hover {
 main #all_posts .post_teaser {
 	position: relative;
 	top: 5px;
-	left: 0px;
+	left: calc(50% - 400px);
 	width: 800px;
 	height: auto;
 	font-family: montserrat_light;
@@ -489,7 +478,7 @@ main #all_posts .post_teaser {
 main #all_posts .post_date {
 	position: relative;
 	top: 15px;
-	left: 0px;
+	left: calc(50% - 400px);
 	width: 800px;
 	height: auto;
 	font-family: montserrat_light;
@@ -578,6 +567,10 @@ main #post_box p {
 	margin-bottom: 10px;
 }
 
+
+
+
+
 #all_robots {
 	position: absolute;
 	top: calc(50% - 100px);
@@ -585,6 +578,7 @@ main #post_box p {
 	width: 800px;
 	height: 200px;
 }
+
 
 main #robots_section, main #sponsors_section {
 	position: relative;
@@ -1006,26 +1000,12 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	padding: 5px;
 }
 
-main #contact_section, main #team_section, main #events_section1 {
+main #contact_section, main #team_section {
 	position: relative;
 	top: 50px;
 	left: calc(50% - 520px);
 	width: 1040px;
 	height: 700px;
-}
-
-main #events_section1 {
-	left: 0px;
-	width: 50%;
-	background: red;
-}
-
-main #events_section2 {
-	position: absolute;
-	top: 350px;
-	width: 50%;
-	right: 0px;
-	background: green;
 }
 
 main #contact_section h1, main #team_section h1 {

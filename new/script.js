@@ -45,6 +45,8 @@ $(document).ready(function() {
 			$("#front").css("background", "transparent");
 		}
 	});
+
+	
 	var post_list = document.getElementById('all_posts').getElementsByTagName("li");
 	$(".post_title").click(function(event) {
 		var post_id = jQuery(this).attr("id");
@@ -68,6 +70,5 @@ $(document).ready(function() {
 			}
 		}
 	});
+
 });
-
-
