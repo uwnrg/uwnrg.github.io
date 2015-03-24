@@ -436,8 +436,8 @@ main .credits {
 main #all_posts {
 	position: relative;
 	top: 0px;
-	left: calc(50% - 405px);
-	width: 810px;
+	left: 0px;
+	width: 100%;
 	height: auto;
 }
 /****************************************************/
@@ -445,13 +445,24 @@ main #all_posts {
 #events_section1 #all_posts ul li .post_title h1, 
 #events_section2 #all_posts ul li .post_title h1 {
 	font-size: 25px;
+	margin-left: 20px;
+}
+
+#events_section1 #all_posts ul li .post_date,  
+#events_section2 #all_posts ul li .post_date {
+	margin-left: 20px;
+}
+
+
+#events_section1 #all_posts ul li .post_title {
+	background: blue;
 }
 
 main #all_posts .post_title {
 	position: relative;
 	top: 0px;
-	left: calc(50% - 400px);
-	width: 800px;
+	left: 0px;
+	width: 100%;
 	height: auto;
 	text-align: left;
 	padding-top: 30px;
@@ -468,7 +479,7 @@ main #all_posts .post_title:hover {
 main #all_posts .post_teaser {
 	position: relative;
 	top: 5px;
-	left: calc(50% - 400px);
+	left: 0px;
 	width: 800px;
 	height: auto;
 	font-family: montserrat_light;
@@ -478,7 +489,7 @@ main #all_posts .post_teaser {
 main #all_posts .post_date {
 	position: relative;
 	top: 15px;
-	left: calc(50% - 400px);
+	left: 0px;
 	width: 800px;
 	height: auto;
 	font-family: montserrat_light;
