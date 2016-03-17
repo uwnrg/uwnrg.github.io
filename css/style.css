@@ -60,7 +60,7 @@ ul {
 }
 
 body {
-	background: #000 url("images/nrg_bg.jpg") no-repeat;
+	background: #000 url("../images/nrg_bg.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -107,7 +107,7 @@ body#robots {
 	left: calc(50% - 250px);
 	width: 500px;
 	height: 131px;
-	background: url("images/logo.png") no-repeat center center;
+	background: url("../images/logo.png") no-repeat center center;
 	background-size: cover;
 	-webkit-animation: load 2s;
 	-moz-animation: load 2s;
@@ -171,12 +171,12 @@ header #logo a {
 	font-size: 50px;
 	text-indent: 30px;
 	line-height: 70px;
-	background: url("images/logo.png") no-repeat center center;
+	background: url("../images/logo.png") no-repeat center center;
 	background-size: cover;
 }
 
 header #logo a#robots {
-	background: url("images/logo2.png") no-repeat center center;
+	background: url("../images/logo2.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -241,7 +241,7 @@ header #header_wrapper #dd_button {
 	right: 15px;
 	width: 40px;
 	height: 40px;
-	background: url("images/horizontal_lines.png") no-repeat center center;
+	background: url("../images/horizontal_lines.png") no-repeat center center;
 	background-size: cover;
 	display: none;
 	cursor: pointer;
@@ -332,7 +332,7 @@ aside#ddnav ul li a {
 	right: 0px;
 	width: 50%;
 	height: 100%;
-	background: url("images/info_pic - Copy.jpg") no-repeat;
+	background: url("../images/info_pic - Copy.jpg") no-repeat;
 	background-size: cover;
 }
 
@@ -405,14 +405,14 @@ main #posts_banner, main #cont_banner {
 	left: 0px;
 	width: 100%;
 	height: 400px;
-	background: url("images/qnc.jpg") no-repeat center center;
+	background: url("../images/qnc.jpg") no-repeat center center;
 	background-size: cover;
 	display: table;
 	text-align: center;
 }
 
 main #cont_banner {
-	background: url("images/nano.jpg") no-repeat center center;
+	background: url("../images/nano.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -504,7 +504,7 @@ main .post_view #close_button {
 	right: 20px;
 	width: 64px;
 	height: 64px;
-	background: url("images/close.png") no-repeat center center;
+	background: url("../images/close.png") no-repeat center center;
 	cursor: pointer;
 	z-index: 100000;
 }
@@ -610,7 +610,7 @@ main #robots_section #emma {
 	left: 10px;
 	width: 250px;
 	height: 250px;
-	background: url("images/emma.jpg") no-repeat center center;
+	background: url("../images/emma.jpg") no-repeat center center;
 	background-size: cover;
 	cursor: pointer;
 }
@@ -714,73 +714,73 @@ main #robots_section #emma:hover span {
 }
 
 main #robots_section #robots_list ul li#michelle {
-	background: url("images/michelle.png") no-repeat center center;
+	background: url("../images/michelle.png") no-repeat center center;
 	background-size: 100%;
 }
 
 main #robots_section #robots_list ul li#sam {
-	background: url("images/sam.jpg") no-repeat center center;
+	background: url("../images/sam.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
 main #robots_section #robots_list ul li#saw {
-	background: url("images/saw.jpg") no-repeat center center;
+	background: url("../images/saw.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
 main #robots_section #robots_list ul li#maya {
-	background: #000 url("images/maya.jpg") no-repeat center center;
+	background: #000 url("../images/maya.jpg") no-repeat center center;
 	background-size: 75%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(1) {
-	background: #FFF url("images/sponsors/Agilent_Technologies-Logo.png") no-repeat center center;
+	background: #FFF url("../images/sponsors/Agilent_Technologies-Logo.png") no-repeat center center;
 	background-size: 100%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(2) {
-	background: #FFF url("images/sponsors/ECE_Logo.png") no-repeat center center;
+	background: #FFF url("../images/sponsors/ECE_Logo.png") no-repeat center center;
 	background-size: 50%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(3) {
-	background: #FFF url("images/sponsors/mme_logo.jpg") no-repeat center center;
+	background: #FFF url("../images/sponsors/mme_logo.jpg") no-repeat center center;
 	background-size: 70%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(4) {
-	background: #FFF url("images/sponsors/icf_logo_thin.png") no-repeat center center;
+	background: #FFF url("../images/sponsors/icf_logo_thin.png") no-repeat center center;
 	background-size: 120%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(5) {
-	background: #FFF url("images/sponsors/mef.png") no-repeat center center;
+	background: #FFF url("../images/sponsors/mef.png") no-repeat center center;
 	background-size: 80%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(6) {
-	background: #FFF url("images/sponsors/nova wafers.png") no-repeat center center;
+	background: #FFF url("../images/sponsors/nova wafers.png") no-repeat center center;
 	background-size: 100%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(7) {
-	background: #FFF url("images/sponsors/SFF.jpg") no-repeat center center;
+	background: #FFF url("../images/sponsors/SFF.jpg") no-repeat center center;
 	background-size: 80%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(8) {
-	background: #FFF url("images/sponsors/WaterlooLogo.gif") no-repeat center center;
+	background: #FFF url("../images/sponsors/WaterlooLogo.gif") no-repeat center center;
 	background-size: 100%;
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(9) {
-	background: #FFF url("images/sponsors/engsoc.jpg") no-repeat center center;
+	background: #FFF url("../images/sponsors/engsoc.jpg") no-repeat center center;
 	background-size: 100%;
 	margin-left: 270px;	
 }
 
 main #sponsors_section #sponsors_list ul li:nth-child(10) {
-	background: #FFF url("images/sponsors/weef.png") no-repeat center center;
+	background: #FFF url("../images/sponsors/weef.png") no-repeat center center;
 	background-size: 100%;
 }
 
@@ -816,7 +816,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	right: 12.5px;
 	width: 50px;
 	height: 50px;
-	background: url("images/close2.png") no-repeat center center;
+	background: url("../images/close2.png") no-repeat center center;
 	background-size: cover;
 	cursor: pointer;
 }
@@ -827,7 +827,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	left: 5px;
 	width: 275px;
 	height: 275px;
-	background: url("images/michelle.png") no-repeat center center;
+	background: url("../images/michelle.png") no-repeat center center;
 	background-size: 100%;
 }
 
@@ -874,7 +874,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	right: 12.5px;
 	width: 50px;
 	height: 50px;
-	background: url("images/close2.png") no-repeat center center;
+	background: url("../images/close2.png") no-repeat center center;
 	background-size: cover;
 	cursor: pointer;
 }
@@ -885,7 +885,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	left: 0px;
 	width: 275px;
 	height: 275px;
-	background: url("images/sam.jpg") no-repeat center center;
+	background: url("../images/sam.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
@@ -932,7 +932,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	right: 12.5px;
 	width: 50px;
 	height: 50px;
-	background: url("images/close2.png") no-repeat center center;
+	background: url("../images/close2.png") no-repeat center center;
 	background-size: cover;
 	cursor: pointer;
 }
@@ -943,7 +943,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	left: 5px;
 	width: 275px;
 	height: 275px;
-	background: url("images/saw.jpg") no-repeat center center;
+	background: url("../images/saw.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
@@ -990,7 +990,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	right: 12.5px;
 	width: 50px;
 	height: 50px;
-	background: url("images/close2.png") no-repeat center center;
+	background: url("../images/close2.png") no-repeat center center;
 	background-size: cover;
 	cursor: pointer;
 }
@@ -1001,7 +1001,7 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	left: 0px;
 	width: 275px;
 	height: 275px;
-	background: #000 url("images/maya.jpg") no-repeat center center;
+	background: #000 url("../images/maya.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
@@ -1081,12 +1081,12 @@ main #team_section .exec_list li .execl_wrapper .member_pic {
 }
 
 main #team_section .exec_list li .execl_wrapper #scott {
-	background: url("images/Team/Scott_Wheeler.jpg") no-repeat center center;
+	background: url("../images/Team/Scott_Wheeler.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .exec_list li .execl_wrapper #mayuran {
-	background: url("images/Team/Mayuran Saravanapavanantham.jpg") no-repeat center center;
+	background: url("../images/Team/Mayuran Saravanapavanantham.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -1140,263 +1140,263 @@ main #team_section .team_lists #sam2, main #team_section .team_lists #controls, 
 }
 
 main #team_section .team_lists #team_leaders li:nth-child(1) .pic {
-	background: url("images/Team/Isaac Harris.png") no-repeat center center;
+	background: url("../images/Team/Isaac Harris.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #team_leaders li:nth-child(2) .pic {
-	background: url("images/Team/Jeffrey_dEon.JPG") no-repeat center center;
+	background: url("../images/Team/Jeffrey_dEon.JPG") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #team_leaders li:nth-child(3) .pic {
-	background: url("images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
+	background: url("../images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #team_leaders li:nth-child(4) .pic {
-	background: url("images/Team/Anthony_Silvaroli.jpg") no-repeat center center;
+	background: url("../images/Team/Anthony_Silvaroli.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #team_leaders li:nth-child(5) .pic {
-	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
+	background: url("../images/Team/Christopher_Ling.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #team_leaders li:nth-child(6) .pic {
-	background: url("images/Team/Jatin_Patil.jpeg") no-repeat center center;
+	background: url("../images/Team/Jatin_Patil.jpeg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #maya2 li:nth-child(1) .pic {
-	background: url("images/Team/Isaac Harris.png") no-repeat center center;
+	background: url("../images/Team/Isaac Harris.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #maya2 li:nth-child(2) .pic {
-	background: url("images/Team/Ryan Kearns.jpg") no-repeat center center;
+	background: url("../images/Team/Ryan Kearns.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #maya2 li:nth-child(3) .pic {
-	background: url("images/Team/Thomas Storwick.jpg") no-repeat center center;
+	background: url("../images/Team/Thomas Storwick.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #maya2 li:nth-child(4) .pic {
-	background: url("images/Team/Eric_Koop.jpg") no-repeat center center;
+	background: url("../images/Team/Eric_Koop.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #maya2 li:nth-child(5) .pic {
-	background: url("images/Team/Bill Chen.jpg") no-repeat center center;
+	background: url("../images/Team/Bill Chen.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #maya2 li:nth-child(6) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #saw2 li:nth-child(1) .pic {
-	background: url("images/Team/Jeffrey_dEon.JPG") no-repeat center center;
+	background: url("../images/Team/Jeffrey_dEon.JPG") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #saw2 li:nth-child(2) .pic {
-	background: url("images/Team/Mayuran Saravanapavanantham.jpg") no-repeat center center;
+	background: url("../images/Team/Mayuran Saravanapavanantham.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #saw2 li:nth-child(3) .pic {
-	background: url("images/Team/Max_Hamilton.jpg") no-repeat center center;
+	background: url("../images/Team/Max_Hamilton.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #saw2 li:nth-child(4) .pic {
-	background: url("images/Team/Tina Wu.jpg") no-repeat center center;
+	background: url("../images/Team/Tina Wu.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 
 main #team_section .team_lists #saw2 li:nth-child(5) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #saw2 li:nth-child(6) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #sam2 li:nth-child(1) .pic {
-	background: url("images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
+	background: url("../images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #sam2 li:nth-child(2) .pic {
-	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
+	background: url("../images/Team/Christopher_Ling.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #sam2 li:nth-child(3) .pic {
-	background: url("images/Team/Scott_Wheeler.jpg") no-repeat center center;
+	background: url("../images/Team/Scott_Wheeler.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #sam2 li:nth-child(4) .pic {
-	background: url("images/Team/Vyshakh Sanjeev.png") no-repeat center center;
+	background: url("../images/Team/Vyshakh Sanjeev.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #sam2 li:nth-child(5) .pic {
-	background: url("images/Team/Manasa Kaniselvan.png") no-repeat center center;
+	background: url("../images/Team/Manasa Kaniselvan.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #sam2 li:nth-child(6) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #sam2 li:nth-child(7) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #michelle2 li:nth-child(1) .pic {
-	background: url("images/Team/Anthony_Silvaroli.jpg") no-repeat center center;
+	background: url("../images/Team/Anthony_Silvaroli.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #michelle2 li:nth-child(2) .pic {
-	background: url("images/Team/Edward Jin.png") no-repeat center center;
+	background: url("../images/Team/Edward Jin.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #michelle2 li:nth-child(3) .pic {
-	background: url("images/Team/Jatin_Patil.jpeg") no-repeat center center;
+	background: url("../images/Team/Jatin_Patil.jpeg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #michelle2 li:nth-child(4) .pic {
-	background: url("images/Team/Ben Luft.jpg") no-repeat center center;
+	background: url("../images/Team/Ben Luft.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #michelle2 li:nth-child(5) .pic {
-	background: url("images/Team/Mary Chen.jpg") no-repeat center center;
+	background: url("../images/Team/Mary Chen.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #michelle2 li:nth-child(6) .pic {
-	background: url("images/Team/David Rousso.jpg") no-repeat center center;
+	background: url("../images/Team/David Rousso.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(1) .pic {
-	background: url("images/Team/evan.JPG") no-repeat center center;
+	background: url("../images/Team/evan.JPG") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(2) .pic {
-	background: url("images/Team/Addison Keizer.png") no-repeat center center;
+	background: url("../images/Team/Addison Keizer.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(3) .pic {
-	background: url("images/Team/Tammy_Liu.png") no-repeat center center;
+	background: url("../images/Team/Tammy_Liu.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(4) .pic {
-	background: url("images/Team/sadman kazi.jpg") no-repeat center center;
+	background: url("../images/Team/sadman kazi.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(5) .pic {
-	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
+	background: url("../images/Team/Christopher_Ling.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(6) .pic {
-	background: url("images/Team/Sahibjot Saggu.jpg") no-repeat center center;
+	background: url("../images/Team/Sahibjot Saggu.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(7) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #controls li:nth-child(8) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #business li:nth-child(1) .pic {
-	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
+	background: url("../images/Team/Christopher_Ling.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #business li:nth-child(2) .pic {
-	background: url("images/Team/Jatin_Patil.jpeg") no-repeat center center;
+	background: url("../images/Team/Jatin_Patil.jpeg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #business li:nth-child(3) .pic {
-	background: url("images/Team/Edward Jin.png") no-repeat center center;
+	background: url("../images/Team/Edward Jin.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #business li:nth-child(4) .pic {
-	background: url("images/Team/Tina Wu.jpg") no-repeat center center;
+	background: url("../images/Team/Tina Wu.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #business li:nth-child(5) .pic {
-	background: url("images/Team/Vyshakh Sanjeev.png") no-repeat center center;
+	background: url("../images/Team/Vyshakh Sanjeev.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #business li:nth-child(6) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #marketing li:nth-child(1) .pic {
-	background: url("images/Team/Jatin_Patil.jpeg") no-repeat center center;
+	background: url("../images/Team/Jatin_Patil.jpeg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #marketing li:nth-child(2) .pic {
-	background: url("images/Team/Syed Hammad Hasan.jpg") no-repeat center center;
+	background: url("../images/Team/Syed Hammad Hasan.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #marketing li:nth-child(3) .pic {
-	background: url("images/Team/Christopher_Ling.jpg") no-repeat center center;
+	background: url("../images/Team/Christopher_Ling.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #marketing li:nth-child(4) .pic {
-	background: url("images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
+	background: url("../images/Team/Aravind_Ramaraju.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #marketing li:nth-child(5) .pic {
-	background: url("images/Team/Vyshakh Sanjeev.png") no-repeat center center;
+	background: url("../images/Team/Vyshakh Sanjeev.png") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #marketing li:nth-child(6) .pic {
-	background: url("images/Team/Thomas Storwick.jpg") no-repeat center center;
+	background: url("../images/Team/Thomas Storwick.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 main #team_section .team_lists #marketing li:nth-child(7) .pic {
-	background: url("images/Team/avatar.png") no-repeat center center;
+	background: url("../images/Team/avatar.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -1469,12 +1469,12 @@ main #team_section .team_lists .teams_ul li .pic {
 }
 
 #social_buttons ul li a#fb {
-	background: url("images/fb_social.png") no-repeat center center;
+	background: url("../images/fb_social.png") no-repeat center center;
 	background-size: cover;
 }
 
 #social_buttons ul li a#twit {
-	background: url("images/twit_social.png") no-repeat center center;
+	background: url("../images/twit_social.png") no-repeat center center;
 	background-size: cover;
 }
 

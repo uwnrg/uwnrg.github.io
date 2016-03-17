@@ -4,7 +4,7 @@ $(document).ready(function() {
 	}, 4000);
 	$("#loading_screen").delay(4000).fadeOut(1000);
 	$("#f_o_more_button").click(function() {
-		window.location = "posts.html";
+		window.location = "../posts.html";
 	});
 	function close_all() {
 		$("#michelle_info").fadeOut();
