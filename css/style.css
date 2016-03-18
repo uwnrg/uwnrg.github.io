@@ -1,4 +1,5 @@
 /* CSS DOCUMENT */
+@import url("fonts.css");
 
 * {
 	margin: 0px;
@@ -7,56 +8,6 @@
 
 ul {
 	list-style-type: none;
-}
-
-@font-face {
-	font-family: l_gothic;
-	src: url("fonts/leaguegothic-regular-webfont.ttf");
-}
-
-@font-face {
-	font-family: gotham;
-	src: url("fonts/GothamBook.otf");
-}
-
-@font-face {
-	font-family: proxima;
-	src: url("fonts/proxima_nova.otf");
-}
-
-@font-face {
-	font-family: montserrat_regular;
-	src: url("fonts/Montserrat-Regular.otf");
-}
-
-@font-face {
-	font-family: montserrat_light;
-	src: url("fonts/Montserrat-Light.otf");
-}
-
-@font-face {
-	font-family: montserrat_hairline;
-	src: url("fonts/Montserrat-Hairline.otf");
-}
-
-@font-face {
-	font-family: montserrat_bold;
-	src: url("fonts/Montserrat-Bold.otf");
-}
-
-@font-face {
-	font-family: sj;
-	src: url("fonts/Slim Joe.otf");
-}
-
-@font-face {
-	font-family: myra;
-	src: url("fonts/Myra 4F Caps Bold.otf");
-}
-
-@font-face {
-	font-family: lora;
-	src: url("fonts/Lora-Regular.ttf");
 }
 
 body {

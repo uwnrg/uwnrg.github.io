@@ -1,0 +1,70 @@
+@import url("fonts.css");
+/*
+header {
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #222;
+    height: 110px;
+}
+
+nav {
+    vertical-align: 100px;
+}
+
+.navbar {
+    margin: 0 20% 0 20%;
+    text-align: right;
+}
+
+.nav-btn {
+    float: left;
+    margin-top: 55px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: gotham;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+.nav-btn:hover {
+    border-bottom: 2px solid #2E78BA;
+}
+.nav-btn:visited {
+    font-color: white;
+}
+.nav-btn:visited {
+    text-decoration: none;
+}*/
+#logo, #logo:hover {
+    float: left;
+    width: 270px;
+    height: 70px;
+    margin-top: 10px;
+    background: url("../images/logo.png") no-repeat center center;
+    background-size: cover;
+    border: none;
+}
+
+.navbar {
+    background-color: #222;
+    height: 110px;
+}
+
+#navbar-btn {
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: gotham;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-btn:hover {
+    border-bottom: 2px solid #2E78BA;
+}
