@@ -3,88 +3,80 @@
 	<head>
 		<title>UWNRG</title>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="script.js"></script>
-		<script type="text/javascript" src="easings.js"></script>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		<!--<script type="text/javascript">
-		setInterval(function() {
-			window.location = ""
-		}, 1000);
-		</script>-->
-
-		<style type="text/css">
-	
-
-		</style>
-
-
+		<link rel="stylesheet" type="text/css" href="css/style-min.css" />
+		<link rel="stylesheet" type="text/css" href="foundation/foundation-icons.css" />
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
 	</head>
 	<body>
-<!--
+
 		<section id="loading_screen">
 			<div id="loading_bar"></div>
-		</section>-->
+			<div id="loading_item"></div>
+		</section>
 
-		<div id="topbar">
-			<div id="top_title"><a href="#">LOGO HERE</a></div>
-			<div id="top_hor_nav_buttons">
-				<ul>
-					<li><a href="team.html"><span id="nav_span">MEET THE TEAM</span></a></li>
-					<li><a href="robots.html"><span id="nav_span">OUR ROBOTS</span></a></li>
-					<li><a href="#"><span id="nav_span">EVENTS</span></a></li>
-					<li><a href="#"><span id="nav_span">SPONSORS</span></a></li>
-					<li><a href="about.html"><span id="nav_span">ABOUT US</span></a></li>
-				</ul>
+		<header id="front">
+			<div id="header_wrapper">
+				<div id="logo"><a href="index.html"></a></div>
+				<nav>
+					<ul>
+						<li><a href="team.html">MEET THE TEAM</a></li>
+						<li><a href="our_robots.html">OUR ROBOTS</a></li>
+						<li><a href="events.html">EVENTS</a></li>
+						<li><a href="sponsors.html">SPONSORS</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+					</ul>
+				</nav>
+			</div> <!-- end header_wrapper div -->
+		</header>
+
+
+		<section id="who_are_we">
+			<div id="info_txt">
+				<h1>Who are we?</h1>
+				<p>We are an undergraduate student team that explores technological marvels at the micro-scale. By encouraging collaboration amongst undergraduate students, professors, and professionals, we generate novel ideas that showcase the ingenuity of microrobots.</p>
 			</div>
-			<div id="nav_button"></div>
-		</div>
-
-		<nav id="topnav">
-			<ul>
-				<li><a href="team.html">MEET THE TEAM</a></li>
-				<li><a href="robots.html">OUR ROBOTS</a></li>
-				<li><a href="#">EVENTS</a></li>
-				<li><a href="#">SPONSORS</a></li>
-				<li><a href="about.html">ABOUT US</a></li>
-			</ul>
-		</nav>	
-
-		<aside id="left_nav">
-			<div id="title"><a href="#">LOGO HERE</a></div>
-			<div id="options">
-				<ul>
-					<li><a href="team.html">MEET THE TEAM</a></li>
-					<li><a href="robots.html">OUR ROBOTS</a></li>
-					<li><a href="#">EVENTS</a></li>
-					<li><a href="#">SPONSORS</a></li>
-					<li><a href="about.html">ABOUT US</a></li>
-				</ul>
-			</div> <!-- end options div -->
-			<div id="social_buttons">
-				<ul>
-					<li><a href="#" id="twitter"></a></li>
-					<li><a href="#" id="facebook"></a></li>
-				</ul>
-			</div> <!-- end social_buttons div -->
-			<div id="dev">Developed by: <a href="http://www.sahibjotsaggu.com/">Sahibjot Saggu</a></div>
-		</aside>
-
-		<main>
-			<div id="wrapper1">
-				<span>UWNRG</span>
-			<div id="wrapper2">
-				<span>QUANTUM-NANO CENTRE</span>
+			<div id="info_pic">
+				<div id="f_o_more_button">VIEW POSTS</div>
 			</div>
-			<div id="wrapper3">
-				<span>UNIVERSITY OF WATERLOO</span>
-			</div>
-			<div id="wrapper4">
-				<span>SOME TEXT</span>
-			</div>			
-		</main>
+		</section>
+
+		<footer>
+				<div id="foot_content">
+					<ul>
+						<li>
+							<h3>CONTACT US</h3>
+							<ul id="info_list">
+								<li id="i_l1">Scott Wheeler</li>
+								<li id="i_l2">Project Director</li>
+								<li id="i_l3"><a href="mailto:scot.d.wheeler@gmail.com">scot.d.wheeler@gmail.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>JOIN US</h3>
+							<ul id="info_list">
+								<li id="i_l1"><a href="mailto:uwnrg.recruiting@gmail.com">uwnrg.recruiting@gmail.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>FOLLOW US</h3>
+							<ul id="info_list">
+								<li id="i_l1"><a href="http://www.facebook.com/uwnrg"><i class="fi-social-facebook" id="soc-ico"></i> Facebook</a></li>
+								<li id="i_l2"><a href="https://twitter.com/uwnrg"><i class="fi-social-twitter" id="soc-ico"></i> Twitter</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>SPONSOR US</h3>
+							<ul id="info_list">
+								<li id="i_l1">Christopher Ling</li>
+								<li id="i_l2">Lead: Business Development</li>
+								<li id="i_l3"><a href="mailto:christopher.ling@uwnrg.org">christopher.ling@uwnrg.org</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div> <!-- end foot_content div -->
+				<div id="dev_name">Site Developed by: <a href="http://www.sahibjot.me/">Sahibjot Saggu</a></div>
+			</footer>
+		<script type="text/javascript" src="javascript/jquery.js"></script>
+		<script type="text/javascript" src="javascript/script-min.js"></script>			
 	</body>
 </html>

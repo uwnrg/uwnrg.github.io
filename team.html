@@ -1,97 +1,182 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>UWNRG - Team</title>
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="script.js"></script>
-		<script type="text/javascript" src="easings.js"></script>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		<!--<script type="text/javascript">
-		setInterval(function() {
-			window.location = ""
-		}, 1000);
-		</script>-->
-	</head>
-	<body>
+    <head>
+        <title>The Team | UWNRG</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="foundation/foundation-icons.css" />
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
+    </head>
+    <body id="robots">
 
-		<div id="topbar">
-			<div id="top_title"><a href="#">LOGO HERE</a></div>
-			<div id="top_hor_nav_buttons">
-				<ul>
-					<li><a href="team.html"><span id="nav_span">MEET THE TEAM</span></a></li>
-					<li><a href="robots.html"><span id="nav_span">OUR ROBOTS</span></a></li>
-					<li><a href="#"><span id="nav_span">EVENTS</span></a></li>
-					<li><a href="#"><span id="nav_span">SPONSORS</span></a></li>
-					<li><a href="about.html"><span id="nav_span">ABOUT US</span></a></li>
-				</ul>
-			</div>
-			<div id="nav_button"></div>
-		</div>
+        <!--<section id="loading_screen">
+            <div id="loading_bar"></div>
+        </section>-->
 
-		<nav id="topnav">
-			<ul>
-				<li><a href="team.html">MEET THE TEAM</a></li>
-				<li><a href="robots.html">OUR ROBOTS</a></li>
-				<li><a href="#">EVENTS</a></li>
-				<li><a href="#">SPONSORS</a></li>
-				<li><a href="about.html">ABOUT US</a></li>
-			</ul>
-		</nav>	
+        <header id="posts">
+            <div id="header_wrapper">
+                <div id="logo"><a href="index.html"></a></div>
+                <nav>
+                    <ul>
+                        <li><a href="team.html" id="onlink">MEET THE TEAM</a></li>
+                        <li><a href="our_robots.html">OUR ROBOTS</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="sponsors.html">SPONSORS</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div> <!-- end header_wrapper div -->
+        </header>
+        <div id="dark_page"></div>
+        <main>
+            <div id="cont_banner" style="height: 300px;">
+                <span>Meet the Team</span>
+                <div class="credits">Credits to: Nick Manning, UWaterloo Asset Bank</div>
+            </div>
 
+            <!--<div id="contact_section">
+                <h1>Executive Team</h1>-->
+                <div id="team_section">
+                    <h1>Executive Team</h1>
+                    <p>The Executive team consists of the project and technical director who oversee and organize all of the group's activities. Advisors are the founders and previous leaders of the group who provide advice regarding all of its aspects.</p>
+                    <ul class="exec_list">
+                        <li>
+                            <div class="execl_wrapper">
+                                <div class="member_pic" id="scott"></div>
+                                <h3>Scott Wheeler</h3>
+                                <p id="role">Project Director</p>
+                                <p>Currently enrolled in the Nanotechnology Engineering program at University of Waterloo.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="execl_wrapper">
+                                <div class="member_pic" id="mayuran"></div>
+                                <h3>Mayuran Saravanapavanantham</h3>
+                                <p id="role">Technical Director</p>
+                                <p>Currently enrolled in the Nanotechnology Engineering program at University of Waterloo.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="team_lists">
+                        <h1>Team Leads</h1>
+                        <ul class="teams_ul" id="team_leaders">
+                            <li><div class="pic"></div><div class="name"><h3>Isaac Harris</h3></div><div class="extra_desc">MAYA</div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Jeffrey d'Eon</h3></div><div class="extra_desc">SAW</div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Aravind Ramaraju</h3></div><div class="extra_desc">SAM</div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Anthony Silvaroli</h3></div><div class="extra_desc">MICHELLE</div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Christopher Ling</h3></div><div class="extra_desc">Business</div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Jatin Patil</h3></div><div class="extra_desc">Marketing</div></li>
+                        </ul>
+                        <h1>Technical Teams</h1>
+                        <h2>MAYA</h2>
+                        <ul class="teams_ul" id="maya2">
+                            <li><div class="pic"></div><div class="name"><h3>Isaac Harris</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Ryan Kearns</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Thomas Storwick</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Eric Koop</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Bill Chen</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Alisha Bhanji</h3></div></li>
+                        </ul>
+                        <h2>SAW</h2>
+                        <ul class="teams_ul" id="saw2">
+                            <li><div class="pic"></div><div class="name"><h3>Jeffrey d'Eon</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Mayuran Saravanapavanantham</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Max Hamilton</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Tina Wu</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Gavin Wilson</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Irfan Sharif</h3></div></li>
+                        </ul>
+                        <h2>SAM</h2>
+                        <ul class="teams_ul" id="sam2">
+                            <li><div class="pic"></div><div class="name"><h3>Aravind Ramaraju</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Christopher Ling</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Scott Wheeler</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Vyshakh Sanjeev</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Manasa Kaniselvan</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Kyle Nova</h3></div></li>
+                            <li class="last"><div class="pic"></div><div class="name"><h3>Darshan Parmar</h3></div></li>
+                        </ul>
+                        <h2>MICHELLE</h2>
+                        <ul class="teams_ul" id="michelle2">
+                            <li><div class="pic"></div><div class="name"><h3>Anthony Silvaroli</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Edward Jin</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Jatin Patil</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Ben Luft</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Mary Chen</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>David Rousso</h3></div></li>
+                        </ul>
+                        <h1>Controls and Software</h1>
+                        <ul class="teams_ul" id="controls">
+                            <li><div class="pic"></div><div class="name"><h3>Evan Crothers</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Addison Keizer</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Tammy Liu</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Sadman Kazi</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Christopher Ling</h3></div><div class="extra_desc">Web Administrator</div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Sahibjot Saggu</h3></div><div class="extra_desc">Web Designer</div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Leslie Ying</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Dian Jin</h3></div></li>
+                        </ul>
+                        <h1>Business and Marketing</h1>
+                        <h2>Business</h2>
+                        <ul class="teams_ul" id="business">
+                            <li><div class="pic"></div><div class="name"><h3>Christopher Ling</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Jatin Patil</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Edward Jin</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Tina Wu</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Vyshakh Sanjeev</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Alisha Bhanji</h3></div></li>
+                        </ul>
+                        <h2>Marketing</h2>
+                        <ul class="teams_ul" id="marketing">
+                            <li><div class="pic"></div><div class="name"><h3>Jatin Patil</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Syed Hammad Hasan</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Christopher Ling</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Aravind Ramaraju</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Vyshakh Sanjeev</h3></div></li>
+                            <li><div class="pic"></div><div class="name"><h3>Thomas Storwick</h3></div></li>
+                            <li class="last"><div class="pic"></div><div class="name"><h3>Alisha Bhanji</h3></div></li>
+                        </ul>
+                    </div>
+                </div> <!-- end team_section div -->
 
-		<aside>
-			<div id="title"><a href="index.html">LOGO HERE</a></div>
-			<div id="options">
-				<ul>
-					<li><a href="team.html" id="onlink">MEET THE TEAM</a></li>
-					<li><a href="robots.html">OUR ROBOTS</a></li>
-					<li><a href="#">EVENTS</a></li>
-					<li><a href="#">SPONSORS</a></li>
-					<li><a href="about.html">ABOUT US</a></li>
-				</ul>
-			</div> <!-- end options div -->
-			<div id="social_buttons">
-				<ul>
-					<li><a href="#" id="twitter"></a></li>
-					<li><a href="#" id="facebook"></a></li>
-				</ul>
-			</div> <!-- end social_buttons div -->	
-			<div id="dev">Developed by: <a href="http://www.sahibjotsaggu.com/">Sahibjot Saggu</a></div>		
-		</aside>
-
-		<main id="team">
-			<div id="team_banner">
-				<span>Team Picture Here</span>
-			</div> <!-- end team_banner div -->
-			<h1 id="heading">Meet the Team</h1>
-			<div id="team_p_div">
-				<p id="t_p1">In 2007, a group of undergraduate students undertook the task of designing a microrobot. Professors said it would take over 5 years and was the basis of several PhD theses. 4 years later the group had overcome the challenges and won the Microassembly Challenge at the 2011 Mobile Microrobotics Challenge, while being the only completely undergraduate team, as well as the only Canadian team competing.</p>
-				<p id="t_p2">We have students from the Nanotechnology, Electrical, Computer, and Software Engineering programs at Waterloo, as well as students from the faculty of Arts. The range of backgrounds of our students assists us in completing a wide variety of tasks, from programming to fabrication to marketing. The group has been involved in design, simulation, and fabrication of small MEMS components since June of 2007.</p>
-			</div> <!-- end team_p_div div -->
-			<!--
-			<div id="pictures">
-				<ul>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-					<li><div>SANTA CLAUS</div></li>
-				</ul>
-			</div> <!-- end list div -->
-		</main>
-	</body>
+            <footer style="position: relative; top:5500px;">
+                <div id="foot_content">
+                    <ul>
+                        <li>
+                            <h3>CONTACT US</h3>
+                            <ul id="info_list">
+                                <li id="i_l1">Scott Wheeler</li>
+                                <li id="i_l2">Project Director</li>
+                                <li id="i_l3"><a href="mailto:scot.d.wheeler@gmail.com">scot.d.wheeler@gmail.com</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>JOIN US</h3>
+                            <ul id="info_list">
+                                <li id="i_l1"><a href="mailto:uwnrg.recruiting@gmail.com">uwnrg.recruiting@gmail.com</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>FOLLOW US</h3>
+                            <ul id="info_list">
+                                <li id="i_l1"><a href="http://www.facebook.com/uwnrg"><i class="fi-social-facebook" id="soc-ico"></i> Facebook</a></li>
+                                <li id="i_l2"><a href="https://twitter.com/uwnrg"><i class="fi-social-twitter" id="soc-ico"></i> Twitter</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>SPONSOR US</h3>
+                            <ul id="info_list">
+                                <li id="i_l1">Christopher Ling</li>
+                                <li id="i_l2">Lead: Business Development</li>
+                                <li id="i_l3"><a href="mailto:christopher.ling@uwnrg.org">christopher.ling@uwnrg.org</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- end foot_content div -->
+                <div id="dev_name">Site Developed by: <a href="http://www.sahibjot.me/">Sahibjot Saggu</a></div>
+            </footer>
+        </main>
+        <script type="text/javascript" src="javascript/jquery.js"></script>
+        <script type="text/javascript" src="javascript/script-min.js"></script>        
+    </body>
 </html>
