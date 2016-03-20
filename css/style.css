@@ -735,6 +735,11 @@ main #sponsors_section #sponsors_list ul li:nth-child(10) {
 	background-size: 100%;
 }
 
+main #sponsors_section #sponsors_list ul li:nth-child(11) {
+	background: #FFF url("../images/sponsors/Zaber_logo.png") no-repeat center center;
+	background-size: 100%;
+}
+
 #michelle_info {
 	position: fixed;
 	top: calc(50% - 175px);
