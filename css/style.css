@@ -1046,6 +1046,16 @@ main #team_section .exec_list li .execl_wrapper #mayuran {
 	background-size: cover;
 }
 
+main #team_section .exec_list li .execl_wrapper #yavuz {
+	background: url("../images/Team/Mustafa_Yavuz.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+main #team_section .exec_list li .execl_wrapper #cui {
+	background: url("../images/Team/cui.jpg") no-repeat center center;
+	background-size: cover;
+}
+
 main #team_section .exec_list li .execl_wrapper h3 {
 	position: relative;
 	margin-left: 170px;
