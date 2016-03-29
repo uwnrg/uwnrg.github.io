@@ -1,0 +1,23 @@
+#home {
+    background: #000 url("../images/nrg_bg.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 303px);
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 13vh;
+}
+
+#home .content-middle {
+    background: rgba(0,0,0,0.5);
+    padding: 30px 50px 50px 50px;
+}
+
+#home .content-middle h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#home .content-middle p {
+    font-size: 20px;
+}
