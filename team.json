@@ -27,7 +27,7 @@
             "description": "Currently enrolled in the Nanotechnology Engineering program at University of Waterloo."
         }
     ],
-    "teams": ["MAYA", "SAW", "SAM", "MICHELLE", "Business", "Marketing", "Controls"],
+    "teams": ["MAYA", "SAW", "SAM", "MICHELLE", "Controls", "Business", "Marketing"],
     "team-roles": ["lead", "member"],
     "MAYA": [
         {
@@ -125,17 +125,22 @@
     "Controls": [
         {
             "name": "Addison Keizer",
-            "picture": "",
+            "picture": "Addizon_Keizer.jpg",
             "role": "lead"
         },
         {
             "name": "Tammy Liu",
-            "picture": "",
+            "picture": "Tammy_Liu.jpg",
             "role": "lead"
         },
         {
             "name": "Sadman Kazi",
-            "picture": "",
+            "picture": "Sadman_Kazi.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Leslie Ying",
+            "picture": "Leslie_Ying.jpg",
             "role": "member"
         }
     ],
@@ -164,27 +169,27 @@
     "Marketing": [
         {
             "name": "Jatin Patil",
-            "picture": "",
+            "picture": "Jatin_Patil.jpg",
             "role": "lead"
         },
         {
             "name": "Christopher Ling",
-            "picture": "",
+            "picture": "Christopher_Ling.jpg",
             "role": "member"
         },
         {
             "name": "Aravind Ramaraju",
-            "picture": "",
+            "picture": "Aravind_Ramaraju.jpg",
             "role": "member"
         },
         {
             "name": "Vyshakh Sanjeev",
-            "picture": "",
+            "picture": "Vyshakh_Sanjeev.jpg",
             "role": "member"
         },
         {
             "name": "Thomas Storwick",
-            "picture": "",
+            "picture": "Thomas_Storwick.jpg",
             "role": "member"
         }
     ]
