@@ -34,3 +34,11 @@
 #events {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/nano.jpg");
 }
+
+#sponsors {
+    background-image: url("../images/qnc.jpg");
+}
+
+#contact {
+    background-image: url("../images/qnc.jpg");
+}

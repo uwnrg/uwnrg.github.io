@@ -1,0 +1,46 @@
+{
+    "Agilent": {
+        "image": "Agilent_Technologies-Logo.png",
+        "website": "http://www.agilent.com/"
+    },
+    "UW ECE": {
+        "image": "ECE_Logo.png",
+        "website": "http://www.ece.uwaterloo.ca/"
+    },
+    "UW MME": {
+        "image": "mme_logo.jpg",
+        "website": "https://uwaterloo.ca/mechanical-mechatronics-engineering/"
+    },
+    "IEEE Canadian Foundation": {
+        "image": "icf_logo_thin.png",
+        "website": "http://www.ieeecanadianfoundation.org/"
+    },
+    "UW MEF": {
+        "image": "mef.png",
+        "website": "https://www.student.math.uwaterloo.ca/~mefcom/"
+    },
+    "Nova Wafers": {
+        "image": "nova wafers.png",
+        "website": "http://www.novawafers.com/"
+    },
+    "UW Sandford Fleming Foundation": {
+        "image": "SFF.jpg",
+        "website": "https://uwaterloo.ca/sandford-fleming-foundation/"
+    },
+    "University of Waterloo": {
+        "image": "WaterlooLogo.gif",
+        "website": "http://www.uwaterloo.ca/"
+    },
+    "UW EngSoc": {
+        "image": "engsoc.jpg",
+        "website": "http://engsocwp.uwaterloo.ca/"
+    },
+    "UW WEEF": {
+        "image": "weef.png",
+        "website": "http://weef.uwaterloo.ca/"
+    },
+    "Zaber": {
+        "image": "zaber_logo.png",
+        "website": "http://www.zaber.com/"
+    }
+}
