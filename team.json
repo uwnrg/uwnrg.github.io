@@ -1,0 +1,191 @@
+{
+    "advisors": [
+        {
+            "name": "Mustafa Yavuz",
+            "picture": "Mustafa_Yavuz.jpg",
+            "website": "",
+            "description": "Professor Mustafa Yavuz envisions a production tool that can harness new types of magnetic templates and exploit them to make radically new devices and materials. These templates are an enabling tool for self-assembly manufacture/production of magnetic particles into new nano-structured macro-materials, with various applications the field of nanotechnolgoy."
+        },
+        {
+            "name": "Bo Cui",
+            "picture": "Bo_Cui.jpg",
+            "website": "",
+            "description": "Cui leads the Waterloo Nanofabrication Group whose research is focused on nano- and microstructure fabrication using Nano-Imprint Lithography (NIL) and electron beam lithography, thin film deposition and etching, with applications in biomedical, nanoelectric and other areas."
+        }
+    ],
+    "executives": [
+        {
+            "name": "Scott Wheeler",
+            "picture": "Scott_Wheeler.jpg",
+            "role": "Project Director",
+            "description": "Currently enrolled in the Nanotechnology Engineering program at University of Waterloo."
+        },
+        {
+            "name": "Mayuran Saravanapavanantham",
+            "picture": "Mayuran_Saravanapavanantham.jpg",
+            "role": "Technical Director",
+            "description": "Currently enrolled in the Nanotechnology Engineering program at University of Waterloo."
+        }
+    ],
+    "teams": ["MAYA", "SAW", "SAM", "MICHELLE", "Business", "Marketing", "Controls"],
+    "team-roles": ["lead", "member"],
+    "MAYA": [
+        {
+            "name": "Isaac Harris",
+            "picture": "Isaac_Harris.jpg",
+            "role": "lead"
+        },
+        {
+            "name": "Thomas Storwick",
+            "picture": "Thomas_Storwick.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Eric Koop",
+            "picture": "Eric_Koop.jpg",
+            "role": "member"
+        }
+    ],
+    "SAW": [
+        {
+            "name": "Jeffrey d'Eon",
+            "picture": "Jeffre_dEon.jpg",
+            "role": "lead"
+        },
+        {
+            "name": "Mayuran Saravanapavanantham",
+            "picture": "Mayuran_Saravanapavanantham.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Max Hamilton",
+            "picture": "Max_Hamilton.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Tina Wu",
+            "picture": "Tina_Wu.jpg",
+            "role": "member"
+        }
+    ],
+    "SAM": [
+        {
+            "name": "Aravind Ramaraju",
+            "picture": "Aravind_Ramaraju.jpg",
+            "role": "lead"
+        },
+        {
+            "name": "Christopher Ling",
+            "picture": "Christopher_Ling.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Scott Wheeler",
+            "picture": "Scott_Wheeler.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Vyshakh Sanjeev",
+            "picture": "Vyshakh_Sanjeev.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Manasa Kaniselvan",
+            "picture": "Manasa_Kaniselvan.jpg",
+            "role": "member"
+        }
+    ],
+    "MICHELLE": [
+        {
+            "name": "Anthony Silvaroli",
+            "picture": "Anthony_Silvaroli.jpg",
+            "role": "lead"
+        },
+        {
+            "name": "Jatin Patil",
+            "picture": "Jatin_Patil.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Ben Luft",
+            "picture": "Ben_Luft.jpg",
+            "role": "member"
+        },
+        {
+            "name": "Mary Chen",
+            "picture": "Mary_Chen.jpg",
+            "role": "member"
+        },
+        {
+            "name": "David Rousso",
+            "picture": "David_Rousso.jpg",
+            "role": "member"
+        }
+    ],
+    "Controls": [
+        {
+            "name": "Addison Keizer",
+            "picture": "",
+            "role": "lead"
+        },
+        {
+            "name": "Tammy Liu",
+            "picture": "",
+            "role": "lead"
+        },
+        {
+            "name": "Sadman Kazi",
+            "picture": "",
+            "role": "member"
+        }
+    ],
+    "Business": [
+        {
+            "name": "Christopher Ling",
+            "picture": "",
+            "role": "lead"
+        },
+        {
+            "name": "Jatin Patil",
+            "picture": "",
+            "role": "member"
+        },
+        {
+            "name": "Tina Wu",
+            "picture": "",
+            "role": "member"
+        },
+        {
+            "name": "Vyshakh Sanjeev",
+            "picture": "",
+            "role": "member"
+        }
+    ],
+    "Marketing": [
+        {
+            "name": "Jatin Patil",
+            "picture": "",
+            "role": "lead"
+        },
+        {
+            "name": "Christopher Ling",
+            "picture": "",
+            "role": "member"
+        },
+        {
+            "name": "Aravind Ramaraju",
+            "picture": "",
+            "role": "member"
+        },
+        {
+            "name": "Vyshakh Sanjeev",
+            "picture": "",
+            "role": "member"
+        },
+        {
+            "name": "Thomas Storwick",
+            "picture": "",
+            "role": "member"
+        }
+    ]
+}
