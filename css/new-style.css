@@ -103,6 +103,11 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    font-family: montserrat_bold;
+    font-size: 20px;
+}
+
 p {
     font-family: proxima;
     font-size: 18px;
@@ -139,7 +144,7 @@ p {
     font-size: 15px;
 }
 
-.profile .intro {
+.text-center {
     text-align: center;
 }
 
@@ -171,4 +176,9 @@ p {
 
 .robot .inner {
     vertical-align: center;
+}
+
+.highlight {
+    border: 2px dashed blue;
+    padding: 10px;
 }
