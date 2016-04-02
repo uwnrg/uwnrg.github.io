@@ -2,7 +2,8 @@
 Live on [uwnrg.org](http://uwnrg.org)
 
 ### History
-Initially created by [Sahibjot Saggu](http://www.sahibjot.me/), but is now developed and maintained by the UW_NRG controls team.
+Developed and maintained by the UW_NRG controls team.
+Initially created by [Sahibjot Saggu](http://www.sahibjot.me/), but has since been completely rewritten.
 
 ### Libraries and Frameworks
-The site is static, and uses JQuery and (will use) Bootstrap for ease of development.
+This website is static and currently has Bootstrap and JQuery. Upcoming plans are to use NodeJS to populate data members.
