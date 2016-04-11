@@ -1,5 +1,5 @@
 # uwnrg-website
-Live on [uwnrg.org](http://uwnrg.org)
+Currently not live, but would like to be on [uwnrg.org](http://uwnrg.org)
 
 ### History
 Developed and maintained by the UW_NRG controls team.
