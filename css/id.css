@@ -2,7 +2,7 @@
     background: url("../images/nrg_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 303px);
+    height: 100%;
     width: 100%;
     color: white;
     text-align: center;
