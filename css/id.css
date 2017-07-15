@@ -2,11 +2,12 @@
     background: url("../images/nrg_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: calc(100% - 100px);
     width: 100%;
     color: white;
     text-align: center;
     padding-top: 13vh;
+    padding-bottom: 13vh;
 }
 
 #home .content-middle {
